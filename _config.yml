@@ -1,4 +1,4 @@
-safe: false
+safe: true
 permalink: /posts/:title.html
 exclude:
   - README.md
