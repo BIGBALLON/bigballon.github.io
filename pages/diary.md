@@ -5,6 +5,17 @@ date: 2016-07-01 21:48
 ---
 
 
+#### 09-12 Monday
+
+今天第一天上課，資料勘探「數據挖掘」————————————————  
+去了交大圖書館借了好多本書，，，，，，「逼格相當高，爆本科學校幾百條街」————————————   
+——————————————   
+
+![][1]
+
+![][2]
+
+
 
 #### 09-11 Sunday
 
@@ -12,11 +23,11 @@ date: 2016-07-01 21:48
 晚上一起出去吃了一個「大呼過癮」小火鍋 cost 160   
 回來重裝了系統，用的是學校的全套正版軟體，感覺相當不錯！
 
-![][1]
-
-![][2]
-
 ![][3]
+
+![][4]
+
+![][5]
 
 明天第一天上課，UP！
 
@@ -33,9 +44,9 @@ date: 2016-07-01 21:48
 記得週三去取郵政的儲蓄卡。  
 21號去醫院取報告單，順便去辦多次通行證。
 
-![][4]
+![][6]
 
-![][5]
+![][7]
 
 
 
@@ -47,14 +58,14 @@ date: 2016-07-01 21:48
 
 糞便，抽血，X光，皮膚。花了1700+塊
 
-![][6]
+![][8]
 
 回來，吃了中飯，35塊，超便宜，依林20塊，文澤45塊，子翔55塊。二餐的三樓真心實惠。
 菜多，符合大陸口味，更符合大陸南方人的口味，青菜種類多，連四季豆都有。肉種類也多，很不錯，飯免費，湯免費。  
 
 下午，，繼續新生訓練，講了好多，挺好的。   
 
-![][7]
+![][9]
 
 然後，，，去了郵局，，，交了學費，，，哈哈哈，，40000多台幣嘩嘩嘩沒了。
 然後班了個郵政的存折。。。
@@ -69,7 +80,7 @@ date: 2016-07-01 21:48
 
 剛來這幾天估計會特別忙，，特別多事要處理。  
 
-![][8]
+![][10]
 
 中午在二餐吃了一份鸡排饭，70塊錢，，4大塊雞排，都沒吃完，分量相當足，額。。這個還是相當划算的。 另外據說三樓更便宜，50塊錢就能吃得不錯。下次去試試。。  
 
@@ -203,11 +214,13 @@ broken necklace卡了很久...
 ....
 
 
-  [1]: http://7xi3e9.com1.z0.glb.clouddn.com/8C.tmp.png
-  [2]: http://7xi3e9.com1.z0.glb.clouddn.com/filehelper_1473609958055_98.png
-  [3]: http://7xi3e9.com1.z0.glb.clouddn.com/filehelper_1473609965104_55.png
-  [4]: http://7xi3e9.com1.z0.glb.clouddn.com/Y1kb.png
-  [5]: http://7xi3e9.com1.z0.glb.clouddn.com/Y1kc.png
-  [6]: http://7xi3e9.com1.z0.glb.clouddn.com/33434343.png
-  [7]: http://7xi3e9.com1.z0.glb.clouddn.com/2016090s9121555.png
-  [8]: http://7xi3e9.com1.z0.glb.clouddn.com/s0160908190654.png
+  [1]: http://7xi3e9.com1.z0.glb.clouddn.com/29046958239699106.jpg
+  [2]: http://7xi3e9.com1.z0.glb.clouddn.com/167103069215840681.jpg
+  [3]: http://7xi3e9.com1.z0.glb.clouddn.com/8C.tmp.png
+  [4]: http://7xi3e9.com1.z0.glb.clouddn.com/filehelper_1473609958055_98.png
+  [5]: http://7xi3e9.com1.z0.glb.clouddn.com/filehelper_1473609965104_55.png
+  [6]: http://7xi3e9.com1.z0.glb.clouddn.com/Y1kb.png
+  [7]: http://7xi3e9.com1.z0.glb.clouddn.com/Y1kc.png
+  [8]: http://7xi3e9.com1.z0.glb.clouddn.com/33434343.png
+  [9]: http://7xi3e9.com1.z0.glb.clouddn.com/2016090s9121555.png
+  [10]: http://7xi3e9.com1.z0.glb.clouddn.com/s0160908190654.png
