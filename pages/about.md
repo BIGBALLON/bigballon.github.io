@@ -4,15 +4,20 @@ title: About
 date: 2016-07-01 21:48
 ---
 
-Me. a pre ppter? a pre acmer ? algorithm? game? machine learning?   
-I don't know!
-
+Always think positively    
+Always improve your potential    
 
 
 ## Experiences
 
-$2012 -2016 \; Chang'an \;University.  \;\;SE$  
-$2016- 2019\;National \;Chiao-Tung \;University. \;\;CS $
+$2012 -2016 \; Chang'an \;University.  \;\;$      
+> $Software \;Engineering $
+
+$2016- 20xx\;National \;Chiao-Tung \;University. \;\;$    
+> $Computer \;Science \;$    
+$@Institute \;of \;Computer \;Science \;and \;Engineering(IOC)$    
+$@Computer \;Games \;and \;Intelligence (CGI) \;Lab$
+
 
 
 ## Friends & Links
@@ -24,8 +29,11 @@ $2016- 2019\;National \;Chiao-Tung \;University. \;\;CS $
 
 ## Contact Me
 
-[Github][5] | [Zhihu][6] | 
-E-Mail：bigballon@outlook.com
+Email address: fm.bigballon AT gmail.com 
+
+[「Github」][5] | [「Zhihu」][6] | [「Facebook」][7]
+
+
 
 
   [1]: http://www.cnblogs.com/AOQNRMGYXLMV/
@@ -34,3 +42,4 @@ E-Mail：bigballon@outlook.com
   [4]: https://virusdefender.net/
   [5]: https://github.com/bigballon
   [6]: https://www.zhihu.com/people/BIGBALLON
+  [7]: https://www.facebook.com/fm.bigballon
