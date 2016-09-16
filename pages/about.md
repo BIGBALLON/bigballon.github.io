@@ -33,7 +33,7 @@ $@Computer \;Games \;and \;Intelligence (CGI) \;Lab$
 
 Email address: fm.bigballon AT gmail.com 
 
-[「Github」][5] 。 [「Zhihu」][6] 。 [「Facebook」][7]
+[「Github」][5] · [「Zhihu」][6] · [「Facebook」][7]
 
 
 
