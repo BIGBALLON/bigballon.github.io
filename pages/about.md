@@ -11,9 +11,11 @@ Always improve your potential
 ## Experiences
 
 $2012 -2016 \; Chang'an \;University.  \;\;$      
-> $Software \;Engineering $
+
+> $Software \;Engineering $   
 
 $2016- 20xx\;National \;Chiao-Tung \;University. \;\;$    
+
 > $Computer \;Science \;$    
 $@Institute \;of \;Computer \;Science \;and \;Engineering(IOC)$    
 $@Computer \;Games \;and \;Intelligence (CGI) \;Lab$
@@ -31,7 +33,7 @@ $@Computer \;Games \;and \;Intelligence (CGI) \;Lab$
 
 Email address: fm.bigballon AT gmail.com 
 
-[「Github」][5] | [「Zhihu」][6] | [「Facebook」][7]
+[「Github」][5] 。 [「Zhihu」][6] 。 [「Facebook」][7]
 
 
 
