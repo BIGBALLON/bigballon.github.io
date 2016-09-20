@@ -25,13 +25,13 @@ $@Computer \;Games \;and \;Intelligence (CGI) \;Lab$
 ## Friends & Links
 
 > [AOQNRMGYXLMV][1]	chd & icpc    
-> [jcf94][2] chd & best friend & icpc & ACSA  
+> [jcf94][2] chd & & USTC & best friend & icpc & ACSA  
 > [flowsnow][3] chd & operation and maintenance  
 > [virusdefender][4] qdu & python & web security  
 
 ## Contact Me
 
-Email address: fm.bigballon AT gmail.com 
+> Email address: fm.bigballon AT gmail.com 
 
 [「Github」][5] · [「Zhihu」][6] · [「Facebook」][7]
 
