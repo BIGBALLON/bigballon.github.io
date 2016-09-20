@@ -32,6 +32,6 @@ meta:
         github: bigballon                 # GitHub账号
         gravatar: 61192553bd4d0a057070cae2654c07c1  # Gravatar头像标识
 
-    disqus: disqus.com/embed.js                     # Disqus评论的JS地址
+    disqus: /assets/js/embed.js                     # Disqus评论的JS地址
     gapi: http://www.google.com/jsapi               # Google API地址
     gravatar: http://s.gravatar.com/avatar/        # Gravatar头像服务器地址
