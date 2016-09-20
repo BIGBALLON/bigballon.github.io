@@ -13,7 +13,8 @@ var site = {
 		},
 		
 		post: function () {
-			var disqusUrl = site.URL_DISCUS_COMMENT;
+			//var disqusUrl = site.URL_DISCUS_COMMENT;
+			var disqusUrl = '\\assets\\js\\site.js';
 			disqusUrl && elf().loadScript(disqusUrl, {});
 		},
 		
