@@ -4,6 +4,17 @@ title: Diary
 date: 2016-07-01 21:48
 ---
 
+#### 09-27 Tuesday
+
+今天，，颱風假，，明天，，颱風假。。  
+最近不是很有時間更新我的blog，過一段時間再好好寫點總結吧。  
+近期任務：   
+
+> 1. 課業，認真完成hw和project 
+> 2. editor-->chess  
+> 3. stockfish source code，儘快找時間看吧
+
+
 
 #### 09-12 Monday
 
@@ -98,21 +109,21 @@ date: 2016-07-01 21:48
 
 #### 07-21 Thursday  
 
-> Section 3.1	  
-DONE	2016.07.21	PROB Humble Numbers [ANALYSIS]  DP   
-DONE	2016.07.21	PROB Contact [ANALYSIS]  map+vetor ? trie ? ac auto?  
-DONE	2016.07.21	PROB Stamps [ANALYSIS]   DP 
+> Section 3.1   
+DONE  2016.07.21  PROB Humble Numbers [ANALYSIS]  DP   
+DONE  2016.07.21  PROB Contact [ANALYSIS]  map+vetor ? trie ? ac auto?  
+DONE  2016.07.21  PROB Stamps [ANALYSIS]   DP 
 
-> Section 3.2	  
-DONE	2016.07.21	PROB Factorials [ANALYSIS]    水题  
+> Section 3.2   
+DONE  2016.07.21  PROB Factorials [ANALYSIS]    水题  
 
 跑了20000步
 
 #### 07-20 Wednesday
 
 > Section 3.1    
-DONE	2016.07.20	PROB Agri-Net [ANALYSIS]  最小生成树  
-DONE	2016.07.20	PROB Score Inflation [ANALYSIS]  完全背包  
+DONE  2016.07.20  PROB Agri-Net [ANALYSIS]  最小生成树  
+DONE  2016.07.20  PROB Score Inflation [ANALYSIS]  完全背包  
 
 下午泡了个温泉，，，清爽。
 
@@ -120,33 +131,33 @@ DONE	2016.07.20	PROB Score Inflation [ANALYSIS]  完全背包
 #### 07-19 Tuesday
 
 > Section 2.2  
-DONE	2016.07.17	PROB Party Lamps [ANALYSIS]  dfs  
+DONE  2016.07.17  PROB Party Lamps [ANALYSIS]  dfs  
 
 > Section 2.3  
-DONE	2016.07.17	PROB The Longest Prefix [ANALYSIS] DP   
-DONE	2016.07.17	PROB Cow Pedigrees [ANALYSIS]  DP  
-DONE	2016.07.18	PROB Zero Sum [ANALYSIS]  dfs  
-DONE	2016.07.18	PROB Money Systems [ANALYSIS]  DP  完全背包  
-DONE	2016.07.18	PROB Controlling Companies [ANALYSIS]  dfs  
+DONE  2016.07.17  PROB The Longest Prefix [ANALYSIS] DP   
+DONE  2016.07.17  PROB Cow Pedigrees [ANALYSIS]  DP  
+DONE  2016.07.18  PROB Zero Sum [ANALYSIS]  dfs  
+DONE  2016.07.18  PROB Money Systems [ANALYSIS]  DP  完全背包  
+DONE  2016.07.18  PROB Controlling Companies [ANALYSIS]  dfs  
 
 > Section 2.4    
-DONE	2016.07.19	PROB The Tamworth Two [ANALYSIS]  模拟  
-DONE	2016.07.19	PROB Overfencing [ANALYSIS]  从两个出口分别bfs  
-DONE	2016.07.19	PROB Cow Tours [ANALYSIS]  floyd + 并查集  
-DONE	2016.07.19	PROB Bessie Come Home [ANALYSIS]  最短路   
-DONE	2016.07.18	PROB Fractions to Decimals [ANALYSIS]  余数..模拟...   
+DONE  2016.07.19  PROB The Tamworth Two [ANALYSIS]  模拟  
+DONE  2016.07.19  PROB Overfencing [ANALYSIS]  从两个出口分别bfs  
+DONE  2016.07.19  PROB Cow Tours [ANALYSIS]  floyd + 并查集  
+DONE  2016.07.19  PROB Bessie Come Home [ANALYSIS]  最短路   
+DONE  2016.07.18  PROB Fractions to Decimals [ANALYSIS]  余数..模拟...   
 
 MDZZ....
 
 #### 07-13 Wednesday
 
 > seciton 2.2  
-DONE	2016.07.13	PROB Preface Numbering [ANALYSIS]  罗马数字挺好玩的， 模拟！   
-DONE	2016.07.13	PROB Subset Sums [ANALYSIS]  0-1背包 DP   
-DONE	2016.07.13	PROB Runaround Numbers [ANALYSIS] 这题智障。。。    
+DONE  2016.07.13  PROB Preface Numbering [ANALYSIS]  罗马数字挺好玩的， 模拟！   
+DONE  2016.07.13  PROB Subset Sums [ANALYSIS]  0-1背包 DP   
+DONE  2016.07.13  PROB Runaround Numbers [ANALYSIS] 这题智障。。。    
 
 > seciton 2.1 达成  
-DONE	2016.07.12	PROB The Castle [ANALYSIS]  
+DONE  2016.07.12  PROB The Castle [ANALYSIS]  
 说下这题，首先存储地图信息，然后用floodfill染色，颜色相同的区域成为一个房间。  
 然后是拆墙，从左下开始遍历到右上。颜色不同的两个房间之间，说明必定有墙。
 
@@ -156,12 +167,12 @@ DONE	2016.07.12	PROB The Castle [ANALYSIS]
 被吐槽不好好刷题了，玩了两天pokemon go，回了趟老家，最近有点浮躁，烦啊，我只想安安心心刷题。  
 
 > seciton 2.1  
-DONE	2016.07.12	PROB Sorting A Three-Valued Sequence [ANALYSIS]  
-DONE	2016.07.12	PROB Healthy Holsteins [ANALYSIS]  
-DONE	2016.07.12	PROB Hamming Codes [ANALYSIS]  
+DONE  2016.07.12  PROB Sorting A Three-Valued Sequence [ANALYSIS]  
+DONE  2016.07.12  PROB Healthy Holsteins [ANALYSIS]  
+DONE  2016.07.12  PROB Hamming Codes [ANALYSIS]  
 
 > 还是卡在这题，，2333.  
-VIEWED	2016.07.07	PROB The Castle
+VIEWED  2016.07.07  PROB The Castle
 
 #### 07-09 Saturday
 
