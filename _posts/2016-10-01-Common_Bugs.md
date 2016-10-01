@@ -12,7 +12,7 @@ Most of the contents are directly from or modified from Prof. [Liu Pangfeng’s 
 For all the following problems, answer the output message of the code, unless they are specified differently. If there are any exception(s) (or segmentation faults), indicate where it is (or they are). Most importantly, you need to explain the reason. 
 
 
-###Problem 1:
+### Problem 1:
 
 ```
 #include <string.h>
@@ -38,7 +38,7 @@ int main(void)
 
 What happens and why? How to fix it? 
 
-###Problem 2:
+### Problem 2:
 
 ```
 #include <stdio.h>
@@ -58,7 +58,7 @@ int main()
 
 What's wrong? How to fix it? 
 
-###Problem 3:
+### Problem 3:
 
 ```
 #include <stdio.h>
@@ -85,7 +85,7 @@ int main(void)
 
 Show output and explain the difference of the two loops. 
 
-###Problem 4:
+### Problem 4:
 
 ```
 #include <stdio.h>
@@ -110,7 +110,7 @@ int main(void)
 
 Explain why one is missing. 
 
-###Problem 5:
+### Problem 5:
 
 ```
 #include <stdio.h>
@@ -127,7 +127,7 @@ int main()
 
 What happens and why? 
 
-###Problem 6:
+### Problem 6:
 
 ```
 #include <stdio.h>
@@ -141,7 +141,7 @@ int main()
 
 Why is our lab number incorrect? 
 
-###Problem 7:
+### Problem 7:
 
 ```
 #include <stdio.h>
@@ -162,7 +162,7 @@ int main()
 
 Why? 
 
-###Problem 8:
+### Problem 8:
 
 ```
 #include <stdio.h>
@@ -180,7 +180,7 @@ int main(void)
 
 Answer the lengths of “file” in Unix and Windows, and explain. 
 
-###Problem 9:
+### Problem 9:
 
 ```
 #include <stdio.h>
@@ -200,7 +200,7 @@ int main(void)
 Hint: NEVER NEVER run this. Otherwise, your hard disk will crash.   
 Just tell what is wrong with this program. 
 
-###Problem 10:
+### Problem 10:
 
 ```
 #include <stdio.h>
@@ -216,7 +216,7 @@ int main()
 ```
 Explain the result, and how to fix it. 
 
-###Problem 11:
+### Problem 11:
 
 ```
 struct csie {
@@ -242,7 +242,7 @@ int main(void)
 Explain the result.   
 Hint: this is very very important to the program development in our lab. 
 
-###Problem 12:
+### Problem 12:
 
 ```
 #include <stdio.h>
@@ -262,7 +262,7 @@ int main(void)
 
 What happens and why? How to fix it? 
 
-###Problem 13: (The examples are given by Ting-Fu Liao.)
+### Problem 13: (The examples are given by Ting-Fu Liao.)
 
 ```
 /// header.h
@@ -294,10 +294,10 @@ int main() {
 ```
 Separate them into three files. What happens and how to fix it? 
 
-###Problem 14:
+### Problem 14:
 
 ```
-####include <stdio.h>
+#include <stdio.h>
 int main()
 {
   char filename[80];
@@ -312,7 +312,7 @@ int main()
 
 Why can’t you open the file? How to fix it. 
 
-###Problem 15:
+### Problem 15:
 
 ```
 int main()
@@ -329,7 +329,7 @@ int main()
 }
 ```
 
-###Problem 16:
+### Problem 16:
 
 ```
 int main()
@@ -343,7 +343,7 @@ int main()
 }
 ```
 
-###Problem 17:
+### Problem 17:
 
 ```
 #include <stdio.h>
@@ -358,7 +358,7 @@ int main()
 }
 ```
 
-###Problem 18:
+### Problem 18:
 
 ```
 // for qsort, read http://www.cplusplus.com/reference/clibrary/cstdlib/qsort/
@@ -381,7 +381,7 @@ int main ()
 }
 ```
 
-###Problem 19:
+### Problem 19:
 
 ```
 #include <stdio.h>
@@ -401,7 +401,7 @@ int main(void)
 
 What is the output? Hint: use “gcc –E test.c” to see what happens. 
 
-###Problem 20:
+### Problem 20:
 
 ```
 #include <stdio.h>
@@ -421,7 +421,7 @@ main()
 }
 ```
 
-###Problem 21:
+### Problem 21:
 
 ```
 #include <stdio.h>
@@ -435,7 +435,7 @@ main()
 
 Hint: Try this in both Visual C++ 6.0 and gcc. 
 
-###Problem 22:
+### Problem 22:
 
 ```
 #include <stdio.h>
@@ -463,7 +463,7 @@ int main()
 
 What happens and how to fix it? 
 
-###Problem 23:
+### Problem 23:
 
 ```
 #include <stdio.h>
@@ -494,7 +494,7 @@ int main()
 
 What happens and how to fix it? 
 
-###Problem 24:
+### Problem 24:
 
 ```
 #include <stdio.h>
@@ -511,12 +511,12 @@ int main()
 }
 ```
 
-Input   
-3
+Input    
+3  
 
 What happens and how to fix it? 
 
-###Problem 25:
+### Problem 25:
 
 ```
 // 程式將 i 調整為偶數後再乘以 5
@@ -534,7 +534,7 @@ int main()
 
 What happens? You must find out the weird reason. 
 
-###Problem 26:
+### Problem 26:
 
 ```
 #include <iostream>
@@ -575,7 +575,7 @@ int main(a)
 
 ### Extra Readings: 
 
-萬惡的未定義行為: [evil-undefined-behavior][2]
+ [evil-undefined-behavior][2]
 
 
   [1]: http://pangfengliu.blogspot.com
