@@ -31,12 +31,12 @@ int main(void)
   char start[] = "this is a string";
   char *start2 = strtok(start, " ");
   start2 = "this is a string";
-  start2[4] = ‘\0’;
+  start2[4] = '\0';
   return 0;
 }
 ```
 
-What happens and why? How to fix it? 
+What happens and why? 
 
 ### Problem 2:
 
