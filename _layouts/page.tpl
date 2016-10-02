@@ -46,7 +46,7 @@
 			<img src="\avatar.jpg" height="48" width="48" />
 			<figcaption><strong>{{ site.meta.author.name }}</strong></figcaption>
 		</figure>
-		<p>Just a kidding</p>
+		<p>Always think positively,always improve your potential.</p>
 	</div>
 	
 	<div class="block block-license">
