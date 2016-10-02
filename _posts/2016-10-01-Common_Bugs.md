@@ -6,11 +6,14 @@ tags: [C]
 ---
 
 
+There are Common some Bugs in C Programming.
 
 Most of the contents are directly from or modified from Prof. [Liu Pangfeng’s blog][1]. Most credits should go to him. 
 
 For all the following problems, answer the output message of the code, unless they are specified differently. If there are any exception(s) (or segmentation faults), indicate where it is (or they are). Most importantly, you need to explain the reason. 
 
+> I don't want to write down the complete answer.  
+If you have some questions, please leave a message below. Thank you!
 
 ### Problem 1:
 
@@ -40,9 +43,7 @@ int main(void)
 
 What happens and why? 
 
-#### Hint 1:
-
-
+> Hint 1:  
 Maybe you can get an answer from [here][2]， [here][3] and [here][4].     
 
 ```
@@ -72,13 +73,6 @@ int main()
 
 What's wrong? How to fix it? 
 
-#### Hint 2:
-
-```
-modify return *a/*b /* a simple division */;  
-to return (*a)/(*b) /* a simple division */;
-```
-
 ### Problem 3:
 
 ```
@@ -106,8 +100,7 @@ int main(void)
 
 Show output and explain the difference of the two loops. 
 
-#### Hint 3:
-
+> Hint 3:  
 See the definition of function [strtok()][5] 
 
 
@@ -136,8 +129,7 @@ int main(void)
 
 Explain why one is missing. 
 
-#### Hint 4:
-
+> Hint 4:  
 Check the ASCII number of the EOF
 
 ### Problem 5:
@@ -157,13 +149,6 @@ int main()
 
 What happens and why? 
 
-#### Hint 5:
-
-```
-printf( "\n%.10f %.10f", a*3, b ); 
-then you maybe find the difference.
-```
-
 ### Problem 6:
 
 ```
@@ -178,8 +163,7 @@ int main()
 
 Why is our lab number incorrect? 
 
-#### Hint 6:
-
+> Hint 6:  
 Octal & Decimal
 
 ### Problem 7:
@@ -203,11 +187,8 @@ int main()
 
 What happens and why? 
 
-#### Hint 7:
-
-```
-printf("%d\n%d\n",&a,&a+1);
-```
+> Hint 7:  
+You may find the answer in [here][6] or [here][7].
 
 ### Problem 8:
 
@@ -227,12 +208,9 @@ int main(void)
 
 Answer the lengths of “file” in Unix and Windows, and explain. 
 
-#### Hint 8:
-
-```
-Windows: \CR\LF
-Unix: \LF
-```
+> Hint 8:   
+Windows: \CR\LF   
+Unix: \LF  
 
 ### Problem 9:
 
@@ -250,8 +228,6 @@ int main(void)
   return 0;
 }
 ```
-
-#### Hint 9: 
 
 NEVER NEVER run this. Otherwise, your hard disk will crash.   
 Just tell what is wrong with this program. 
@@ -352,11 +328,6 @@ int main() {
 ```
 Separate them into three files. What happens and how to fix it? 
 
-
-#### Hint 13: 
-
-You should know External variable.
-
 ### Problem 14:
 
 ```
@@ -375,9 +346,8 @@ int main()
 
 Why can’t you open the file? How to fix it. 
 
-#### Hint 14: 
-
-See the definition of [fgets()][6]
+> Hint 14:   
+See the definition of [fgets()][8]
 
 ### Problem 15:
 
@@ -456,8 +426,7 @@ int main ()
 
 What happens and why? How to fix it? 
 
-#### Hint 18:
-
+> Hint 18:  
 Integer overflow.
 
 
@@ -479,10 +448,7 @@ int main(void)
 }
 ```
 
-What is the output? 
-
-#### Hint 19:
-
+What is the output?   
 use "gcc –E test.c"  to see what happens. 
 
 ### Problem 20:
@@ -507,9 +473,8 @@ main()
 
 What happens and why? Is strange skills good? 
 
-#### Hint:
-
-Don't zuosi!
+> Hint 20:  
+Don't zuosi !
 
 ### Problem 21:
 
@@ -522,8 +487,6 @@ main()
   printf("%d\n", i);
 }
 ```
-
-#### Hint 21: 
 
 Try this in both Visual C++ 6.0 and gcc. 
 
@@ -553,7 +516,7 @@ int main()
 }
 ```
 
-What happens ? why??? amazing?? 
+What happens ? why??? amazing?? easy.
 
 ### Problem 23:
 
@@ -632,8 +595,7 @@ int& sub2 ( int& a , int& b ){
 }
 ```
 
-#### Hint 25:
-
+> Hint 25:  
 stack & heap
 
 ### Problem 26:
@@ -670,11 +632,10 @@ Show the output of the translated program, and run it. Also importantly, you nee
 #include <stdio.h>
 int main(a)
 {
-	test(int);
-	return 0;
+  test(int);
+  return 0;
 }
 ```
-
 
 
   [1]: http://pangfengliu.blogspot.com
@@ -682,4 +643,6 @@ int main(a)
   [3]: http://www.cnblogs.com/skynet/archive/2011/03/07/1975479.html
   [4]: http://www.geeksforgeeks.org/memory-layout-of-c-program/
   [5]: http://www.cplusplus.com/reference/cstring/strtok/?kw=strtok
-  [6]: http://www.cplusplus.com/reference/cstdio/fgets/?kw=fgets
+  [6]: http://stackoverflow.com/questions/1641957/is-an-array-name-a-pointer-in-c
+  [7]: http://stackoverflow.com/questions/24467726/what-exactly-is-the-array-name-in-c
+  [8]: http://www.cplusplus.com/reference/cstdio/fgets/?kw=fgets
