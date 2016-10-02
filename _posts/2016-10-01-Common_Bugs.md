@@ -40,13 +40,14 @@ int main(void)
 
 What happens and why? 
 
-### Hint 1:
+#### Hint 1:
 
 
 Maybe you can get an answer from [here][2]， [here][3] and [here][4].     
 
 ```
-``"this is a string"`` in ``char *start = "this is a string"`` is stored in the code segment。
+"this is a string" in char *start = "this is a string" 
+is stored in the code segment。
 It can not be modified, so the program will cause a runtime error.  
 For case 1, modified ``char *start``to ``char start[]``
 ```
@@ -71,7 +72,7 @@ int main()
 
 What's wrong? How to fix it? 
 
-### Hint 2:
+#### Hint 2:
 
 ```
 modify return *a/*b /* a simple division */;  
@@ -105,7 +106,7 @@ int main(void)
 
 Show output and explain the difference of the two loops. 
 
-### Hint 3:
+#### Hint 3:
 
 See the definition of function [strtok()][5] 
 
@@ -135,7 +136,7 @@ int main(void)
 
 Explain why one is missing. 
 
-### Hint 4:
+#### Hint 4:
 
 Check the ASCII number of the EOF
 
@@ -156,7 +157,7 @@ int main()
 
 What happens and why? 
 
-### Hint 5:
+#### Hint 5:
 
 ```
 printf( "\n%.10f %.10f", a*3, b ); 
@@ -177,9 +178,9 @@ int main()
 
 Why is our lab number incorrect? 
 
-### Hint 6:
+#### Hint 6:
 
-Octal and Decimal
+Octal & Decimal
 
 ### Problem 7:
 
@@ -202,7 +203,7 @@ int main()
 
 What happens and why? 
 
-### Hint 7:
+#### Hint 7:
 
 ```
 printf("%d\n%d\n",&a,&a+1);
@@ -226,12 +227,13 @@ int main(void)
 
 Answer the lengths of “file” in Unix and Windows, and explain. 
 
-### Hint 8:
+#### Hint 8:
 
 ```
 Windows: \CR\LF
 Unix: \LF
 ```
+
 ### Problem 9:
 
 ```
@@ -249,12 +251,11 @@ int main(void)
 }
 ```
 
-Hint: NEVER NEVER run this. Otherwise, your hard disk will crash.   
+#### Hint 9: 
+
+NEVER NEVER run this. Otherwise, your hard disk will crash.   
 Just tell what is wrong with this program. 
 
-### Hint:
-
-Just for fun!!!!!
 
 ### Problem 10:
 
@@ -270,6 +271,7 @@ int main()
   printf("%d %d\n", square(inc(i)), i);
 }
 ```
+
 Explain the result, and how to fix it. 
 
 ### Problem 11:
@@ -350,6 +352,11 @@ int main() {
 ```
 Separate them into three files. What happens and how to fix it? 
 
+
+#### Hint 13: 
+
+You should know External variable.
+
 ### Problem 14:
 
 ```
@@ -367,6 +374,10 @@ int main()
 ```
 
 Why can’t you open the file? How to fix it. 
+
+#### Hint 14: 
+
+See the definition of [fgets()][6]
 
 ### Problem 15:
 
@@ -445,6 +456,10 @@ int main ()
 
 What happens and why? How to fix it? 
 
+#### Hint 18:
+
+Integer overflow.
+
 
 ### Problem 19:
 
@@ -464,7 +479,11 @@ int main(void)
 }
 ```
 
-What is the output? Hint: use “gcc –E test.c” to see what happens. 
+What is the output? 
+
+#### Hint 19:
+
+use "gcc –E test.c"  to see what happens. 
 
 ### Problem 20:
 
@@ -486,6 +505,12 @@ main()
 }
 ```
 
+What happens and why? Is strange skills good? 
+
+#### Hint:
+
+Don't zuosi!
+
 ### Problem 21:
 
 ```
@@ -498,7 +523,9 @@ main()
 }
 ```
 
-Hint: Try this in both Visual C++ 6.0 and gcc. 
+#### Hint 21: 
+
+Try this in both Visual C++ 6.0 and gcc. 
 
 ### Problem 22:
 
@@ -526,7 +553,7 @@ int main()
 }
 ```
 
-What happens and how to fix it? 
+What happens ? why??? amazing?? 
 
 ### Problem 23:
 
@@ -584,6 +611,33 @@ What happens and how to fix it?
 
 ### Problem 25:
 
+The sub1 below may result in a run-time error. Why?
+
+```
+int& sub1 ( int& a , int& b ){
+    int c = a − b ;
+    return c ;
+}
+```
+
+The sub2 below does not result in a run-time error, but there may be some other
+problem. What is the problem?
+
+
+```
+int& sub2 ( int& a , int& b ){
+    int ∗ pc = new int ;
+    ∗pc = a − b ;
+    return (∗ pc ) ;
+}
+```
+
+#### Hint 25:
+
+stack & heap
+
+### Problem 26:
+
 ```
 #include <iostream>
 #include <cstdio>
@@ -621,9 +675,6 @@ int main(a)
 }
 ```
 
-### Extra Readings: 
-
- [evil-undefined-behavior][6]
 
 
   [1]: http://pangfengliu.blogspot.com
@@ -631,4 +682,4 @@ int main(a)
   [3]: http://www.cnblogs.com/skynet/archive/2011/03/07/1975479.html
   [4]: http://www.geeksforgeeks.org/memory-layout-of-c-program/
   [5]: http://www.cplusplus.com/reference/cstring/strtok/?kw=strtok
-  [6]: http://blog.ez2learn.com/2008/09/27/evil-undefined-behavior/
+  [6]: http://www.cplusplus.com/reference/cstdio/fgets/?kw=fgets
