@@ -6,7 +6,7 @@ tags: [C]
 ---
 
 
-There are Common some Bugs in C Programming.
+There are some Common Bugs in C Programming.
 
 Most of the contents are directly from or modified from Prof. [Liu Pangfeng’s blog][1]. Most credits should go to him. 
 
