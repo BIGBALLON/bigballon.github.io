@@ -4,8 +4,8 @@ title: Papers
 date: 2016-10-17 21:48
 ---
 
-I am a graduate student of NCTU CGI lab.
-My main research area is machine learning( computer game AI ).
+Always think positively    
+Always improve your potential  
 
 
 ## Paper Read

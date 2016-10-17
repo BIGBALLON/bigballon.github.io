@@ -4,8 +4,16 @@ title: About
 date: 2016-07-01 21:48
 ---
 
-Always think positively    
-Always improve your potential    
+  
+
+I am a graduate student at [CGI Lab][1] of NCTU(National Chiao Tung University).    
+My main research area is computer [game AI][2]( Go, Hex, 2048, Chess, Chinese Chess, Mahjong etc. ).  
+Now, I'm focus on Chinese Chess AI.   
+
+I love algorithm and machine learning(RL especially).    
+Training machine is a interesting thing.   
+You can even use your trained AI to defeat humans. It's funny!  
+I like making friends with anyone. Please feel free to contact me for any questions, thank you!   
 
 
 ## Experiences
@@ -24,30 +32,22 @@ $@Computer \;Games \;and \;Intelligence (CGI) \;Lab$
 
 ## Friends & Links
 
-> [AOQNRMGYXLMV][1]	chd & icpc    
-> [jcf94][2] chd & & USTC & best friend & icpc & ACSA  
-> [flowsnow][3] chd & operation and maintenance  
-> [virusdefender][4] qdu & python & web security  
+> [AOQNRMGYXLMV][3] CHD & icpc    
+> [jcf94][4] CHD & & USTC & best friend & icpc & ACSA  
+> [flowsnow][5] CHD & operation and maintenance  
+> [virusdefender][6] QDU & python & web security   
+> [wuyuewoniu][7] CHD & icpc & a prrety girl
 
 ## Contact Me
 
 > 「Email address」: fm.bigballon$@$gmail.com 
 
-[「Github」][5] · [「Zhihu」][6] · [「Facebook」][7]
+[「Github」][8] · [「Zhihu」][9] · [「Facebook」][10]
 
 
 <div id="disqus_thread"></div>
 <script>
 
-/**
- *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
- *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
-/*
-var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
 (function() { // DON'T EDIT BELOW THIS LINE
     var d = document, s = d.createElement('script');
     s.src = '//bigballon.disqus.com/embed.js';
@@ -58,12 +58,13 @@ var disqus_config = function () {
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 
-
-
-  [1]: http://www.cnblogs.com/AOQNRMGYXLMV/
-  [2]: http://jcf94.com/about/
-  [3]: http://flowsnow.net/
-  [4]: https://virusdefender.net/
-  [5]: https://github.com/bigballon
-  [6]: https://www.zhihu.com/people/BIGBALLON
-  [7]: https://www.facebook.com/fm.bigballon
+  [1]: http://www.aigames.nctu.edu.tw/
+  [2]: http://aigames.nctu.edu.tw/~icwu/honors.html
+  [3]: http://www.cnblogs.com/AOQNRMGYXLMV/
+  [4]: http://jcf94.com/about/
+  [5]: http://flowsnow.net/
+  [6]: https://virusdefender.net/
+  [7]: http://www.cnblogs.com/wuyuewoniu/
+  [8]: https://github.com/bigballon
+  [9]: https://www.zhihu.com/people/BIGBALLON
+  [10]: https://www.facebook.com/fm.bigballon
