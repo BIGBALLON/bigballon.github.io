@@ -6,14 +6,15 @@ date: 2016-07-01 21:48
 
   
 
-I am a graduate student at [CGI Lab][1] of NCTU(National Chiao Tung University).    
-My main research area is computer [game AI][2]( Go, Hex, 2048, Chess, Chinese Chess, Mahjong etc. ).  
+I am a graduate student at [CGI Lab][1] of NCTU([National Chiao Tung University][2]).    
+My main research area is [computer game AI][3]( Go, Hex, 2048, Chess, Chinese Chess, Mahjong etc. ).  
 Now, I'm focus on Chinese Chess AI.   
 
 I love algorithm and machine learning(RL especially).    
 Training machine is a interesting thing.   
 You can even use your trained AI to defeat humans. It's funny!  
-I like making friends with anyone. Please feel free to contact me for any questions, thank you!   
+I like making friends with anyone.     
+Please feel free to contact me for any questions, thank you!   
 
 
 ## Experiences
@@ -32,17 +33,17 @@ $@Computer \;Games \;and \;Intelligence (CGI) \;Lab$
 
 ## Friends & Links
 
-> [AOQNRMGYXLMV][3] CHD & icpc    
-> [jcf94][4] CHD & & USTC & best friend & icpc & ACSA  
-> [flowsnow][5] CHD & operation and maintenance  
-> [virusdefender][6] QDU & python & web security   
-> [wuyuewoniu][7] CHD & icpc & a prrety girl
+> [AOQNRMGYXLMV][4] CHD & icpc    
+> [jcf94][5] CHD & & USTC & best friend & icpc & ACSA  
+> [flowsnow][6] CHD & operation and maintenance  
+> [virusdefender][7] QDU & python & web security   
+> [wuyuewoniu][8] CHD & icpc & a prrety girl
 
 ## Contact Me
 
 > 「Email address」: fm.bigballon$@$gmail.com 
 
-[「Github」][8] · [「Zhihu」][9] · [「Facebook」][10]
+[「Github」][9] · [「Zhihu」][10] · [「Facebook」][11]
 
 
 <div id="disqus_thread"></div>
@@ -59,12 +60,13 @@ $@Computer \;Games \;and \;Intelligence (CGI) \;Lab$
 
 
   [1]: http://www.aigames.nctu.edu.tw/
-  [2]: http://aigames.nctu.edu.tw/~icwu/honors.html
-  [3]: http://www.cnblogs.com/AOQNRMGYXLMV/
-  [4]: http://jcf94.com/about/
-  [5]: http://flowsnow.net/
-  [6]: https://virusdefender.net/
-  [7]: http://www.cnblogs.com/wuyuewoniu/
-  [8]: https://github.com/bigballon
-  [9]: https://www.zhihu.com/people/BIGBALLON
-  [10]: https://www.facebook.com/fm.bigballon
+  [2]: http://www.nctu.edu.tw/
+  [3]: http://aigames.nctu.edu.tw/~icwu/honors.html
+  [4]: http://www.cnblogs.com/AOQNRMGYXLMV/
+  [5]: http://jcf94.com/about/
+  [6]: http://flowsnow.net/
+  [7]: https://virusdefender.net/
+  [8]: http://www.cnblogs.com/wuyuewoniu/
+  [9]: https://github.com/bigballon
+  [10]: https://www.zhihu.com/people/BIGBALLON
+  [11]: https://www.facebook.com/fm.bigballon
