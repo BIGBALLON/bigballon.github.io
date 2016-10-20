@@ -4,12 +4,27 @@ title: Diary
 date: 2016-07-01 21:48
 ---
 
+#### 10-20 Thursday
+
+
+NP的project下來的時候，果然感到了一陣壓力，不過也做好了準備。    
+果然是傳說中很heavy的course。    
+結果今天開始優化code，，，沒想到效果這麼好，，看來framework裡面的bit運算確實寫得很渣。。。    
+優化之後 moves/sec 從 40000 -> 80000.    
+有嘗試新的features，不過可能並不會比先前的好，在training幾天，demo之前再看效果吧XD。  
+
+生活還要繼續，，加油咯！！   
+等稍微有點時間，看看blog開一點新坑。。2584鐵定是要write了。TCG也鐵定會write，  
+置於DM可能？？不知道，另外會關注CNN deep learning的東西，沒準會寫一些ML的總結呢？  
+哦，還有看盤面，找feature，這週週末把近期的比賽都看完吧！  
+
+
 #### 10-18 Tuesday
 
 好久沒有寫日記，這些天過得很充實。    
 lab的生活很好。     
 最近已經開始寫2584的AI了。目前進度使用了TD learning 來training   
-目前有用過的features有 line box(4-tuple) 和ax(6 tuple).   
+目前有用過的features有 line (4-tuple) 和 box ax(6 tuple).   
 我還加了610 limited，這個確實很有效，還有感謝CL那天幫我debug到凌晨2點，thx!  
 另外膜拜一下lab的學長學姐們發的那兩篇paper，果然是TD learning在2048-like game裡面的精髓！    
 
