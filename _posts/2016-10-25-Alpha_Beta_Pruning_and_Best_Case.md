@@ -23,6 +23,6 @@ Alpha-beta pruning is the standard searching procedure used for 2-person perfect
 - Fail hard version
 - Fail soft version
 
-##
+## Mini-Max & Nage-Max
 
 to be continue
