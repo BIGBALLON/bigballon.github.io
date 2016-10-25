@@ -8,13 +8,11 @@ date: 2016-07-01 21:48
 
 I am a graduate student at [CGI Lab][1] of NCTU([National Chiao Tung University][2]).    
 My main research area is [computer game AI][3]( Go, Hex, 2048, Chess, Chinese Chess, Mahjong etc. ).  
-Now, I'm focus on Chinese Chess AI.   
+Now, I'm focus on RL( Reinforcement Learning ) & DL ( Deep Learning ) 「Chinese Chess AI and 2048([2584][4]) AI. 」 
 
-I love algorithm and machine learning(RL especially).    
-Training machine is a interesting thing.   
-You can even use your trained AI to defeat humans. It's funny!  
-I like making friends with anyone.     
-Please feel free to contact me for any questions, thank you!   
+Training machine is a interesting thing.
+I just use TD learning to training my Fib2584 AI, it's funny!  
+I like making friends with anyone.  Please feel free to contact me for any questions, thank you!   
 
 
 ## Experiences
@@ -33,17 +31,17 @@ $@Computer \;Games \;and \;Intelligence (CGI) \;Lab$
 
 ## Friends & Links
 
-> [AOQNRMGYXLMV][4] CHD & icpc    
-> [jcf94][5] CHD & & USTC & best friend & icpc & ACSA  
-> [flowsnow][6] CHD & operation and maintenance  
-> [virusdefender][7] QDU & python & web security   
-> [wuyuewoniu][8] CHD & icpc & a prrety girl
+> [AOQNRMGYXLMV][5] CHD & icpc    
+> [jcf94][6] CHD & & USTC & best friend & icpc & ACSA  
+> [flowsnow][7] CHD & operation and maintenance  
+> [virusdefender][8] QDU & python & web security   
+> [wuyuewoniu][9] CHD & icpc & a prrety girl
 
 ## Contact Me
 
 > 「Email address」: fm.bigballon$@$gmail.com 
 
-[「Github」][9] · [「Zhihu」][10] · [「Facebook」][11]
+[「Github」][10] · [「Zhihu」][11] · [「Facebook」][12]
 
 
 <div id="disqus_thread"></div>
@@ -62,11 +60,12 @@ $@Computer \;Games \;and \;Intelligence (CGI) \;Lab$
   [1]: http://www.aigames.nctu.edu.tw/
   [2]: http://www.nctu.edu.tw/
   [3]: http://aigames.nctu.edu.tw/~icwu/honors.html
-  [4]: http://www.cnblogs.com/AOQNRMGYXLMV/
-  [5]: http://jcf94.com/about/
-  [6]: http://flowsnow.net/
-  [7]: https://virusdefender.net/
-  [8]: http://www.cnblogs.com/wuyuewoniu/
-  [9]: https://github.com/bigballon
-  [10]: https://www.zhihu.com/people/BIGBALLON
-  [11]: https://www.facebook.com/fm.bigballon
+  [4]: https://github.com/BIGBALLON/Fib2584_AI
+  [5]: http://www.cnblogs.com/AOQNRMGYXLMV/
+  [6]: http://jcf94.com/about/
+  [7]: http://flowsnow.net/
+  [8]: https://virusdefender.net/
+  [9]: http://www.cnblogs.com/wuyuewoniu/
+  [10]: https://github.com/bigballon
+  [11]: https://www.zhihu.com/people/BIGBALLON
+  [12]: https://www.facebook.com/fm.bigballon
