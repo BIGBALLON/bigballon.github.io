@@ -33,6 +33,7 @@
 		<h3><a href="/pages/diary.html">DIARY</a></h3>
 		<h3><a href="/pages/about.html">ABOUT</a></h3>
 		<h3><a href="/pages/papers.html">PAPERS</a></h3>
+		<h3><a href="/pages/papers.html">DMHWS</a></h3>
 		</ul>
 	</nav>
 	
