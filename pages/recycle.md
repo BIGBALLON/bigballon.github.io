@@ -4,11 +4,11 @@ title: bg'S recycle bin
 date: 2016-12-01 21:48
 ---
 
-这是我的回收站，回收一些有的没的「videos」「ppts」or「slides」。
+这是我的回收站，回收一些有的没的「videos」「ppts」or「slides」。balabalabalabla
 
----
 
-> 研究生阶段：
+
+> 研究生阶段：「短期（1年）内不提供下载，thanks」
 
 ---
 
