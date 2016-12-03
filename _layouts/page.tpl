@@ -57,7 +57,7 @@
 	</div>	
 	<div class="block block-license">
 		<h3>Web traffic</h3>
-	<a href="http://info.flagcounter.com/za4T"><img src="http://s07.flagcounter.com/count2/za4T/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_15/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+	<a href="http://s05.flagcounter.com/more/kJ4"><img src="http://s05.flagcounter.com/count/kJ4/bg_E9EBED/txt_000000/border_9E9E9E/columns_4/maxflags_12/viewers_3/labels_0/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
 	</div>
 
 	
