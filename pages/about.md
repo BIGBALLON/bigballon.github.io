@@ -56,6 +56,8 @@ $@Computer \;Games \;and \;Intelligence (CGI) \;Lab$
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
+<a href="http://info.flagcounter.com/za4T"><img src="http://s07.flagcounter.com/count2/za4T/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_15/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+
 
   [1]: http://www.aigames.nctu.edu.tw/
   [2]: http://www.nctu.edu.tw/
