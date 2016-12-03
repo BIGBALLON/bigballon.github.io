@@ -54,13 +54,12 @@
 	<div class="block block-license">
 		<h3>Copyright</h3>
 		<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.5/cn/" target="_blank" class="hide-target-icon" title="Copyright declaration of site content"><img alt="知识共享许可协议" src="http://i.creativecommons.org/l/by-nc-nd/2.5/cn/88x31.png" /></a></p>
+	</div>	
+	<div class="block block-license">
+		<h3>Web traffic</h3>
+	<a href="http://info.flagcounter.com/za4T"><img src="http://s07.flagcounter.com/count2/za4T/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_15/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
 	</div>
-	
-	{% if site.meta.author.github %}
-<!--	<div class="block block-fork">
-		<a href="https://github.com/{{ site.meta.author.github }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
-	</div> -->
-	{% endif %}
+
 	
 	<div class="block block-thank">
 		<h3>Powered by</h3>
