@@ -31,9 +31,9 @@
 		<ul>
 		<h3><a href="/pages/archive.html">ARCHIVE</a></h3>
 		<h3><a href="/pages/friends.html">FRIENDS</a></h3>
-		<h3><a href="/pages/papers.html">PAPERS</a></h3>
-		<h3><a href="/pages/about.html">ABOUTME</a></h3>
-		<h3><a href="/pages/diary.html">DIARYAHA</a></h3>
+		<h3><a href="/pages/papers.html">PAPERRD</a></h3>
+		<h3><a href="/pages/about.html">ABOUT ME</a></h3>
+		<h3><a href="/pages/diary.html">DIARY AHA</a></h3>
 		<h3><a href="/pages/recycle.html">RECYCLE BIN</a></h3>
 		</ul>
 	</nav>
