@@ -4,20 +4,19 @@ title: Friends
 date: 2016-07-01 21:48
 ---
 
-欢迎交换友链
+> 欢迎交换友链
 
 ## Friends & Links
 
-- [AOQNRMGYXLMV][5] CHD & icpc    
-- [jcf94][6] CHD & & USTC & best friend & icpc & ACSA  
-- [flowsnow][7] CHD & operation and maintenance  
-- [virusdefender][8] QDU & python & web security   
-- [wuyuewoniu][9] CHD & icpc & a prrety girl
+- [AOQNRMGYXLMV][1] CHD & icpc    
+- [jcf94][2] CHD & & USTC & best friend & icpc & ACSA  
+- [flowsnow][3] CHD & operation and maintenance  
+- [virusdefender][4] QDU & python & web security   
+- [wuyuewoniu][5] CHD & icpc & a prrety girl
 
 
 <div id="disqus_thread"></div>
 <script>
-
 (function() { // DON'T EDIT BELOW THIS LINE
     var d = document, s = d.createElement('script');
     s.src = '//bigballon.disqus.com/embed.js';
@@ -27,8 +26,9 @@ date: 2016-07-01 21:48
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-  [5]: http://www.cnblogs.com/AOQNRMGYXLMV/
-  [6]: http://jcf94.com/about/
-  [7]: http://flowsnow.net/
-  [8]: https://virusdefender.net/
-  [9]: http://www.cnblogs.com/wuyuewoniu/
+
+  [1]: http://www.cnblogs.com/AOQNRMGYXLMV/
+  [2]: http://jcf94.com/about/
+  [3]: http://flowsnow.net/
+  [4]: https://virusdefender.net/
+  [5]: http://www.cnblogs.com/wuyuewoniu/
