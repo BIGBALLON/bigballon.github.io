@@ -33,6 +33,7 @@
 		<h3><a href="/pages/about.html">ABOUT ME</a></h3>
 		<h3><a href="/pages/recycle.html">RECYCLE BIN</a></h3>
 		<h3><a href="/pages/diary.html">DIARY AHA</a></h3>
+		<h3><a href="/pages/friends.html">FRIENDS</a></h3>
 		<h3><a href="/pages/papers.html">PAPERS</a></h3>
 		</ul>
 	</nav>

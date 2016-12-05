@@ -4,15 +4,18 @@ title: About
 date: 2016-07-01 21:48
 ---
 
-  
+Hi, man! Thanks for reading my personal website.
 
-I am a graduate student at [CGI Lab][1] of NCTU([National Chiao Tung University][2]).    
-My main research area is [computer game AI][3]( Go, Hex, 2048, Chess, Chinese Chess, Mahjong etc. ).  
-Now, I'm focus on RL( Reinforcement Learning ) & DL ( Deep Learning ) 「Chinese Chess AI and 2048([2584][4]) AI. 」 
+My name is Wei Li. I am a pre acmer, pre ppter.
 
-Training machine is a interesting thing.
-I just use TD learning to training my Fib2584 AI, it's funny!  
-I like making friends with anyone.  Please feel free to contact me for any questions, thank you!   
+Now, I am a graduate student at [CGI Lab][1] of NCTU([National Chiao Tung University][2]).     
+My main research area is [computer game AI][3]( Go, Hex, 2048, Chess, Chinese Chess, Mahjong etc. ).   
+Now, I'm focus on RL( Reinforcement Learning ) & DL ( Deep Learning ) 「Chinese Chess AI and 2048([2584][4]) AI.   
+The main task is to modify the Chinese Chess AI during my postgraduate. 
+
+I’m interested in machine learning, especially reinforcement Learning.  
+
+If you have any question, please feel free to contact me, thank you!   
 
 
 ## Experiences
@@ -26,16 +29,6 @@ $2016- 20xx\;National \;Chiao-Tung \;University. \;\;$
 > $Computer \;Science \;$    
 $@Institute \;of \;Computer \;Science \;and \;Engineering(IOC)$    
 $@Computer \;Games \;and \;Intelligence (CGI) \;Lab$
-
-
-
-## Friends & Links
-
-> [AOQNRMGYXLMV][5] CHD & icpc    
-> [jcf94][6] CHD & & USTC & best friend & icpc & ACSA  
-> [flowsnow][7] CHD & operation and maintenance  
-> [virusdefender][8] QDU & python & web security   
-> [wuyuewoniu][9] CHD & icpc & a prrety girl
 
 ## Contact Me
 
