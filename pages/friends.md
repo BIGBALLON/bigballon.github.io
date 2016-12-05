@@ -6,8 +6,6 @@ date: 2016-07-01 21:48
 
 > 欢迎交换友链
 
-## Friends & Links
-
 - [AOQNRMGYXLMV][1] CHD & icpc    
 - [jcf94][2] CHD & & USTC & best friend & icpc & ACSA  
 - [flowsnow][3] CHD & operation and maintenance  
