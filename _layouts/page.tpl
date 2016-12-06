@@ -49,7 +49,7 @@
 			<img src="\avatar.jpg" height="48" width="48" />
 			<figcaption><strong>{{ site.meta.author.name }}</strong></figcaption>
 		</figure>
-		<p>Always think positively,always improve your potential.</p>
+		<p>天下事有难易乎，为之，则难者亦易矣，不为，则易者亦难矣。</p>
 	</div>
 	
 	<div class="block block-license">
