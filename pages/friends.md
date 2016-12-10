@@ -4,13 +4,15 @@ title: Friends
 date: 2016-07-01 21:48
 ---
 
-> 欢迎交换友链
+> 欢迎交换友链 主动联系我哦
 
 - [AOQNRMGYXLMV][1] CHD & icpc    
 - [jcf94][2] CHD & & USTC & best friend & icpc & ACSA  
 - [flowsnow][3] CHD & operation and maintenance  
 - [virusdefender][4] QDU & python & web security   
 - [wuyuewoniu][5] CHD & icpc & a prrety girl
+- [yizhilee][6] CHD & cs & litchi
+- [PureFrog][7]  University of Jinan & icpc
 
 
 <div id="disqus_thread"></div>
@@ -30,3 +32,5 @@ date: 2016-07-01 21:48
   [3]: http://flowsnow.net/
   [4]: https://virusdefender.net/
   [5]: http://www.cnblogs.com/wuyuewoniu/
+  [6]: https://blog.yizhilee.com
+  [7]: http://mycodebattle.com/
