@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CPE sulotion
+title: CPE Solution
 categories: [icpc]
 tags: [icpc]
 ---
@@ -92,7 +92,7 @@ int main(){
 
 ### 11624: Fire!
 
-> bfs预处理 + bfs or 两个bfs合并
+> bfs预处理 + bfs or 两个bfs合并(多源BFS)
 
 ```
 #include <iostream>
