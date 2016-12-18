@@ -28,49 +28,6 @@ tags: [icpc]
 对所有边进行降序排序，两两比较，全部当作第一种情况考虑，因为排序的缘故，只有一种配对可能。  
 PS：读入的时候需要将进行适当的交换(短边在前，长边在后)
 
-```
-#include <iostream>
-#include <cstring>
-#include <cstdio>
-#include <map>
-#include <algorithm>
-using namespace std;
-
-struct pallet{
-    int x, y;
-}p[11];
-
-int cmp( pallet a, pallet b ){
-    if( a.x == b.x )
-        return a.y < b.y;
-    return a.x < b.x;
-}
-
-int ok(){
-    if( p[0].x != p[1].x || p[0].y != p[1].y ) return 0;
-    if( p[2].x != p[3].x || p[2].y != p[3].y ) return 0;
-    if( p[4].x != p[5].x || p[4].y != p[5].y ) return 0;
-
-    if( p[0].x == p[2].x && p[0].y == p[4].x && p[2].y == p[4].y ) return 1;
-
-    return 0;
-}
-int main(){
-    while( ~scanf( "%d %d", &p[0].x, &p[0].y ) ){
-
-        if( p[0].x > p[0].y ) swap( p[0].x, p[0].y );
-        for( int i = 1; i < 6; ++i ){
-            scanf( "%d %d", &p[i].x, &p[i].y );
-            if( p[i].x > p[i].y ) swap( p[i].x, p[i].y );
-        }
-        sort( p, p + 6, cmp );
-        if( ok() ) puts( "POSSIBLE" );
-        else puts( "IMPOSSIBLE" );
-    }
-
-    return 0;
-}
-```
 
 ### 10415: Eb Alto Saxophone Player
 
@@ -94,101 +51,42 @@ int main(){
 
 > bfs预处理 + bfs or 两个bfs合并(多源BFS)  
 
-```
-#include <iostream>
-#include <cstring>
-#include <cstdio>
-#include <queue>
-#include <algorithm>
-using namespace std;
 
-int dir_x[] = { 1,0,0,-1 };
-int dir_y[] = { 0,1,-1,0 };
-char g[1111][1111];
-char f[1111][1111];
-int ti[1111][1111];
-int vis[1111][1111];
-int sx, sy;
-int n, r, c;
-struct node{
-    int x, y;
-    int step;
-    node( int xx, int yy, int ss ){
-        x = xx;
-        y = yy;
-        step = ss;
-    }
-};
-queue<node> fq;
+## 2016-05-24 CPE
 
-void pre(){
-    memcpy(f,g,sizeof(g));
-    while( !fq.empty() ){
-        node t = fq.front();
-        fq.pop();
-        for( int i = 0; i < 4; ++i ){
-            int xx = t.x + dir_x[i];
-            int yy = t.y + dir_y[i];
-            int ss = t.step + 1;
-            if( xx > r || xx < 1 || yy > c || yy < 1 ) continue;
-            if( f[xx][yy] == '#' ) continue;
-            if( f[xx][yy] == 'F' ) continue;
-            f[xx][yy] = 'F';
-            fq.push( node(xx,yy,ss) );
-            ti[xx][yy] = ss;
-        }
-    }
-}
-int bfs(){
-    queue<node> q;
-    q.push( node(sx,sy,0) );
-    vis[sx][sy] = 1;
-    while( !q.empty() ){
-        node cur = q.front();
-        q.pop();
-        for( int i = 0; i < 4; ++i ){
-            int xx = cur.x + dir_x[i];
-            int yy = cur.y + dir_y[i];
-            int ss = cur.step + 1;
-            if( vis[xx][yy] ) continue;
-            if( g[xx][yy] == '#' ) continue;
-            if( g[xx][yy] == 'F' ) continue;
-            if( ti[xx][yy] != -1 && ti[xx][yy] <= ss ) continue;
-            if( g[xx][yy] == 0 ) return ss;
-            q.push( node(xx,yy,ss) );
-            vis[xx][yy] = 1;
-        }
-    }
-    return 0;
-}
-int main(){
-    scanf( "%d", &n );
-    while( n-- ){
-        scanf( "%d %d", &r, &c );
-        memset( g, 0, sizeof(g) );
-        memset( ti,-1,sizeof(ti) );
-        memset( vis,0,sizeof(vis) );
-        while(!fq.empty()) fq.pop();
-        for( int i = 1; i <= r; ++i ){
-            getchar();
-            for( int j = 1; j <= c; ++j ){
-                scanf( "%c", &g[i][j] );
-                if( g[i][j] == 'F' ){
-                    fq.push(node(i,j,0));
-                    ti[i][j] = 0;
-                }
-                if( g[i][j] == 'J' ){
-                    sx = i;
-                    sy = j;
-                }
-            }
-        }
-        pre();
-        int cnt = bfs();
-        if( cnt ) printf( "%d\n", cnt );
-        else puts( "IMPOSSIBLE" );
-    }
+---
 
-    return 0;
-}
-```
+### 11942	Lumberjack Sequencing
+
+> 乱搞
+
+### 499	What's The Frequency, Kenneth?
+
+> 统计
+
+### 948	Fibonaccimal Base
+
+> 简单模拟
+
+### 10200	Prime Time
+
+> 暴力，精度
+
+### 11995	I Can Guess the Data Structure!
+
+> STL
+
+### UVA 10025	The ? 1 ? 2 ? ... ? n = k problem
+
+>  题意： 给定一个K，问表达式? 1 ? 2 ? ... ? n = k成立的最小的n 
+如：$- 1 + 2 + 3 + 4 + 5 + 6 - 7 = 12 \;\;\;n = 7$ 
+
+只考虑正数的情况（负数取绝对值）  
+
+- 对于每一个$i$,考虑全部相加的情况：
+    - $sum>k \;and\; sum-k \;is\; even$, $i \;is \;answer$
+    - $otherwise \;continue$
+-  $sum-k$需要为偶数的原因是，每将一个$+$改变为$-$，必定会减少$2x$,所以如果当前的$i$要成立，必须有$sum-k$是偶数
+
+
+### 11472	Beautiful Numbers
