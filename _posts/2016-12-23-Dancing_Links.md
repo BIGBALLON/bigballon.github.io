@@ -9,7 +9,7 @@ tags: [icpc]
 ## 1. Exact Cover Problem
 
 DLX是用来解决精确覆盖问题行之有效的算法。
-在讲解DLX之前，我们先了解一下什么是精确覆盖问题（Exact Cover Problem）？
+在讲解DLX之前，我们先了解一下什么是精确覆盖问题(Exact Cover Problem)？
 
 ### 1.1 Polyomino 
 
@@ -20,19 +20,20 @@ DLX是用来解决精确覆盖问题行之有效的算法。
 
 > 将这$12$个由$5$个方格组成的图形全部放入到棋盘中，满足每个格子都被使用，而且只被使用一次。
 
-每个格子都被覆盖，而且只能被覆盖一次，对，这就是精确覆盖问题！
+每个格子都被覆盖，而且只能被覆盖一次，对，这就是精确覆盖问题！  
 (PS:因为$12*5=60$，而整个棋盘除去中间$4$格也刚好是$60$格，所以你应该很容易就明白"每个格子都被覆盖，而且只能被覆盖一次"的含义)
 
 ### 1.2 Sudoku
 
-数独（Sudoku）这个游戏，大家应该都非常熟悉了。我们以经典的$9*9$数独为例
+数独（Sudoku）这个游戏，大家应该都非常熟悉了。  
+我们以经典的$9*9$数独为例
 
 ![dlx2][2]
 
-> 每一个方格必须要放置一个数字，而且只能放置一次
-> 每一行只能放置1-9，而且每个数字只能出现一次
-> 每一列只能放置1-9，而且每个数字只能出现一次
-> 每一宫只能放置1-9，而且每个数字只能出现一次
+- 每一个方格必须要放置一个数字，而且只能放置一次  
+- 每一行只能放置1-9，而且每个数字只能出现一次  
+- 每一列只能放置1-9，而且每个数字只能出现一次  
+- 每一宫只能放置1-9，而且每个数字只能出现一次  
 
 是的，这很明显也是一个精确覆盖问题。
 
@@ -64,17 +65,17 @@ X算法是由 [Donald Knuth][4] 提出的一个用来解决 精确覆盖问题�
 - 如果矩阵 $A$ 为空，找到解；成功返回。
 - 否则，选择一个列 $c$。
     - 选择一个满足 $A[r][c]=1$行 $r$，把 $r$ 包含进部分解
-        - 对于所有满足 A[r][j]=1 的 j，从矩阵 $A$ 中删除第 $j$ 列；
+        - 对于所有满足 $A[r][j]=1$ 的 $j$，从矩阵 $A$ 中删除第 $j$ 列；
     - 对于所有满足 $A[i][j]=1$ 的 $i$，从矩阵 $A$ 中删除第 $i$ 行。
 - 再不断减少的矩阵 $A$ 上递归地重复上述算法。
 
 
-好，这是个递归的过程，但是看起来有些不好理解，那么我们用图来解释吧。
+好，这是个递归的过程，但是看起来有些费解，让我们用图来解释吧。
 
 如下图所示，假设当前我们选择的是第$3$列，那么第三列中含有$1$的行分别是$row1$和$row3$。  
 假设我们选择第一行(图片中被标红)，那么这行中，第3，5，6列都含有1，所以我们将列3，5和6标记，表示已经覆盖过。   
-由于3，5，6列已经被覆盖，所以其他行如果在列3，5或者6出现1，则一定不能选择，所以我们将第3行和第6行删去，因为第一行已经被我们选择了，所以第一行也删去，那么我们就会得到右边的新矩阵，它只包含$row2,row4,row5$三行。  
-好的，接下来我们再选择$row2$(在图中是第一行，但实际上它的标号是row2)，选择之后，覆盖第1，4，7列，同样做删除操作之后，将会得到右边的空矩阵。  
+由于3，5，6列已经被覆盖，所以其他行如果在列3，5或者6出现1，则一定不能选择，所以我们将第3行和第6行删去，因为第一行已经被我们选择了，所以第一行也删去，那么我们就会得到右边的新矩阵，它只包含$row2,row4,row5$三行。   
+好的，接下来我们再选择$row2$(在图中是第一行，但实际上它的标号是$row2$)，选择之后，覆盖第1，4，7列，同样做删除操作之后，将会得到右边的空矩阵。     
 但是我们会发现，第2列并没有被覆盖，但是矩阵已经为空，所以我们并没有找到答案。  
 这时候，我们就需要回溯。  
 
@@ -154,19 +155,20 @@ $L,R,U,D$分别代表x的左右和上下,$C$代表当前元素所在的列，实
 
 ![dlx16][17]
 
-回溯回来发现，这里只有$row3$能选，那我们再$resume$
+回溯回来发现，这里只有$row3$能选，那我们继续执行$resume$操作。
 
 ![dlx17][18]
 
-刚才我们选择了$row2$，这次我们选择$row4$, 如之前所述，再次进行$remove$操作。
+刚才我们选择了$row2$，这次我们选择$row4$, 如之前所述，再次执行$remove$操作。
 
 ![dlx18][19]
 
-这里又出现两个选择，$row3$和$row5$,我们会先选择$row3$,继而删光矩阵中的所有元素，发现无解，再次resume回来。那我们继续选择$row5$，再次进行$remove$操作。
+这里又出现两个选择，$row3$和$row5$,我们会先选择$row3$,继而删光矩阵中的所有元素，发现无解，再次resume回来。  
+那我们继续选择$row5$，再次执行$remove$操作。
 
 ![dlx19][20]
 
-最后我们只能选择$row1$，进行$remove$操作。
+最后我们只能选择$row1$，执行$remove$操作。
 
 ![dlx20][21]
 
@@ -180,6 +182,7 @@ $L,R,U,D$分别代表x的左右和上下,$C$代表当前元素所在的列，实
 #### 2.3.1 Heuristic
 
 前面有提到过，我们还有一个叫做S的域，这个域是有作用的，我们不应该每次都选取$head$的右结点$R[head]$，我们应该去选择1的数量最少的列。  
+
 如下图所示的矩阵(假设为$B$)，第4列只有$S[y]=1$，说明我们必须要选择$row3$,而且$row3$一定是正确的，那连带图中紫色标出的另外4个1，也是正确的，于是矩阵$B$瞬间被$remove$操作删减为$(1,1)$，我们可以迅速通过2层的递归得到一个解$(row3,row5)$
 
 ![dlx22][23]
@@ -197,11 +200,11 @@ $L,R,U,D$分别代表x的左右和上下,$C$代表当前元素所在的列，实
 
 首先，我们将$60$个方格编号，为$1-60$。
 那么，如果某个格子被覆盖到了，那么这一列就为1，
-总共有12个图形，所以我们还需要标记是哪一个图形，这里我们用$61-72$来表示这12个图形。
-如下图，我们用十字这个图形来覆盖，如果是左边这种情况，我们会覆盖$2，9，10，11，18$这$5$列，加上十字这个图形是编号70，所以我们还要覆盖列$70$。   
+总共有$12$个图形，所以我们还需要标记是哪一个图形，这里我们用$61-72$来表示这$12$个图形。
+如下图，我们用十字这个图形来覆盖，如果是左边这种情况，我们会覆盖$2，9，10，11，18$这$5$列，加上十字这个图形是编号$70$，所以我们还要覆盖列$70$。   
 如果是右边这种情况，我们会覆盖$3，10，11，12，19，70$这$6$列。
 
-从这里可以看出，我们的矩阵会有$72$列，以及若干行，具体多少行，和12个图形有关。
+从这里可以看出，我们的矩阵会有$72$列，以及若干行，具体多少行，和$12$个图形的形状有关。  
 将它们完全转化为矩阵之后。就变成精确覆盖问题了，套用DLX模板，即可求解。
 
 
@@ -213,17 +216,17 @@ $L,R,U,D$分别代表x的左右和上下,$C$代表当前元素所在的列，实
 数独问题怎么转化为精确覆盖问题呢？  
 我们需要构造的矩阵，行和列分别表示什么呢？
 
-- 对于列 一共有4个限制:$(4*n^2)$
+- 对于列$(4*n^2)$， 一共有4个限制:
     - 位置限制:每一格有且仅有一个数.
     - 列限制:每一列中每个数仅出现一次.
     - 行限制:每一行中每个数仅出现一次.
     - 区域限制:每个区域每个数仅出现一次.
 
-- 对于行 
-    - 表示每个数放入每格中.$(n^3)$
+- 对于行$(n^3)$： 
+    - 表示每个数放入每格中.
 
 
-对于位置限制，每一个位置都需要出现一个数，且只能出现一个数，拿4*4的数独，那就是16个格子每个格子只能出现一个数，我们将它们在矩阵中编号为$1-16$。  
+对于位置限制，每一个位置都需要出现一个数，且只能出现一个数，拿$4*4$的数独，那就是16个格子每个格子只能出现一个数，我们将它们在矩阵中编号为$1-16$。  
 如下图所示，2出现在第一行，第一列，所以在举证的列1，填上1，数字4出现在第一行第二列，所以在列2填上1。
 
 ![dlx25][26]
@@ -252,45 +255,116 @@ $L,R,U,D$分别代表x的左右和上下,$C$代表当前元素所在的列，实
 
 ![dlx29][30]
 
-对于$9*9$的数独，我们将其转化为一个 $729*324$ 的矩阵，然后DLX模板套之即可！
+对于$9*9$的数独,  
+我们将其转化为一个 $729*324$ 的矩阵，然后DLX模板套之即可！  
 
 ![dlx30][31]
 
+![dlx_code][32]
+
+```
+struct DLX{
+	int n, m, cnt;
+	int L[maxnode], R[maxnode], U[maxnode], D[maxnode], row[maxnode], col[maxnode];
+	int S[MAXC], H[MAXR], o[MAXR];
+	void init( int _n, int _m ){
+		n = _n; m = _m;
+		for( int i = 0; i <= m; ++i ){
+			S[i] = 0;
+			U[i] = D[i] = i;
+			L[i] = i - 1; R[i] = i + 1;
+		}
+		R[m] = 0; L[0] = m;
+		cnt = m;
+		for( int i = 1; i <= n; ++i ) H[i] = -1;
+	}
+	void link( int r, int  c ){
+		S[c]++;
+		col[++cnt] = c;	row[cnt] = r;
+		D[cnt] = D[c];	U[D[c]] = cnt;
+		U[cnt] = c; D[c] = cnt;
+		if( H[r] < 0 ) H[r] = L[cnt] = R[cnt] = cnt;
+		else{
+			R[cnt] = R[H[r]];
+			L[R[H[r]]] = cnt;
+			L[cnt] = H[r];
+			R[H[r]] = cnt;
+		}
+	}
+	void remove( int c ){
+		L[R[c]] = L[c]; R[L[c]] = R[c];
+		for( int i = D[c]; i != c; i = D[i] )
+			for( int j = R[i]; j != i; j = R[j] ){
+				U[D[j]] = U[j];
+				D[U[j]] = D[j];
+				--S[col[j]];
+			}
+	}
+	void resume( int c ){
+		for( int i = U[c]; i != c; i = U[i] )
+			for( int j = L[i]; j != i; j = L[j] ){
+				U[D[j]] = D[U[j]] = j;
+				++S[col[j]];
+			}
+		L[R[c]] = R[L[c]] = c;
+	}
+	bool dancing( int d ){
+		if( R[0] == 0 )
+			return true;
+		int c = R[0];
+		for( int i = R[0]; i != 0; i = R[i] )
+			if( S[i] < S[c] ) 
+				c = i;
+		remove(c);
+		for( int i = D[c]; i != c; i = D[i] ){
+			o[d] = row[i];
+			for( int j = R[i] ; j != i; j = R[j] ) remove( col[j] );
+			if( dancing( d + 1 ) ) return true;
+			for( int j = L[i] ; j != i; j = L[j] ) resume( col[j] );
+		}
+		resume(c);
+		return false;
+	}
+}dlx;
+
+```
+
 #### 3.2.1 test
 
-我使用 qqwing 生成的难度级别为简单，中等和困难的9*9数独各200个。并使用DLX和DFS分别进行测试，得到如下图所示的结果，DLX要比DFS快了60-140倍！
+我先使用 [qqwing][33] 生成的难度级分别别为简单，中等和困难的$9*9$数独各200个。    
+然后对DLX和DFS分别进行测试，得到如下图所示的结果，DLX要比DFS快了**60-140**倍！
 
-![dlx31][32]
+![dlx31][34]
 
 ### 3.3 N-queens and Exact Cover
 
 N皇后问题，也可以转化为精确覆盖，然后DLX模板套之。。
-通过前面的讲解你应该能够自己建模了吧？试一试[SPOJ NQUEEN][33]这道题目怎么样？
+通过前面的讲解你应该能够自己建模了吧？试一试[SPOJ NQUEEN][35]这道题目怎么样？
 
 
 ## 4 Conclusion
 
 - DLX is a simple and beautiful algorithm.
 - It can solve Exact Cover Problem（精确覆盖） efficiently.
-- It can also solve Overlapping Cover(重复覆盖) Problem.(但是本文没有提及)
+- It can also solve Overlapping Cover(重复覆盖) Problem.(虽然本文没有提及，但这也是DLX的重要运用，需要对remove和resume操作以及dancing部分进行略微的修改)
 - Thanks for Donald E. Knuth.
 
 ## 5 Reference
 
 - 一些也许有用的链接
-    - [Solving Sudoku with Dancing Links][34]
-    - [Knuth's Algorithm X and Dancing Links][35]
-    - [Dancing Links Donald E. Knuth, Stanford University][36]
-    - [Exact cover I][37]
-    - [跳跃的舞者，舞蹈链（Dancing Links）算法][38]
-    - [bin神的DLX专题][39]
+    - [Solving Sudoku with Dancing Links][36]
+    - [Knuth's Algorithm X and Dancing Links][37]
+    - [Dancing Links Donald E. Knuth, Stanford University][38]
+    - [Exact cover I][39]
+    - [跳跃的舞者，舞蹈链（Dancing Links）算法][40]
+    - [bin神的DLX专题][41]
 
 - 一些也许有用的资料下载
-    - [我的slide][40]
-    - [我测试的code][41]
-    - [某巨巨ppt][42]
-    - [Dancing Links在搜索中的运用][43]
-    - [Dancing links中文版][44]
+    - [我的slide][42]
+    - [我测试的code][43]
+    - [某巨巨ppt][44]
+    - [Dancing Links在搜索中的运用][45]
+    - [Dancing links中文版][46]
 
 
 > Let’s dance ! Thank you!
@@ -327,16 +401,18 @@ N皇后问题，也可以转化为精确覆盖，然后DLX模板套之。。
   [29]: http://7xi3e9.com1.z0.glb.clouddn.com/dlx28.png
   [30]: http://7xi3e9.com1.z0.glb.clouddn.com/dlx29.png
   [31]: http://7xi3e9.com1.z0.glb.clouddn.com/dlx30.png
-  [32]: http://7xi3e9.com1.z0.glb.clouddn.com/dlx31.png
-  [33]: http://www.spoj.com/problems/NQUEEN/
-  [34]: https://rafal.io/posts/solving-sudoku-with-dancing-links.html
-  [35]: http://wiki.dreamrunner.org/public_html/Algorithms/TheoryOfAlgorithms/dancing-links.html
-  [36]: https://arxiv.org/pdf/cs/0011047v1.pdf
-  [37]: http://garethrees.org/2015/11/09/exact-cover/
-  [38]: http://www.cnblogs.com/grenet/p/3145800.html
-  [39]: https://vjudge.net/contest/141053
-  [40]: http://pan.baidu.com/s/1i5wlU7N
-  [41]: http://pan.baidu.com/s/1nv2PtRN
-  [42]: http://pan.baidu.com/s/1o8hOBHo
-  [43]: http://pan.baidu.com/s/1skGEft7
-  [44]: http://pan.baidu.com/s/1sl8gTuX
+  [32]: http://7xi3e9.com1.z0.glb.clouddn.com/dlx_code.png
+  [33]: https://qqwing.com/
+  [34]: http://7xi3e9.com1.z0.glb.clouddn.com/dlx31.png
+  [35]: http://www.spoj.com/problems/NQUEEN/
+  [36]: https://rafal.io/posts/solving-sudoku-with-dancing-links.html
+  [37]: http://wiki.dreamrunner.org/public_html/Algorithms/TheoryOfAlgorithms/dancing-links.html
+  [38]: https://arxiv.org/pdf/cs/0011047v1.pdf
+  [39]: http://garethrees.org/2015/11/09/exact-cover/
+  [40]: http://www.cnblogs.com/grenet/p/3145800.html
+  [41]: https://vjudge.net/contest/141053
+  [42]: http://pan.baidu.com/s/1i5wlU7N
+  [43]: http://pan.baidu.com/s/1nv2PtRN
+  [44]: http://pan.baidu.com/s/1o8hOBHo
+  [45]: http://pan.baidu.com/s/1skGEft7
+  [46]: http://pan.baidu.com/s/1sl8gTuX
