@@ -13,6 +13,7 @@ date: 2016-07-01 21:48
 - [wuyuewoniu][5] CHD & icpc & a prrety girl
 - [yizhilee][6] CHD & cs & litchi
 - [PureFrog][7]  University of Jinan & icpc
+- [Tsez's Blog][8] LLer & Linux
 
 
 <div id="disqus_thread"></div>
@@ -34,3 +35,4 @@ date: 2016-07-01 21:48
   [5]: http://www.cnblogs.com/wuyuewoniu/
   [6]: https://blog.yizhilee.com
   [7]: http://mycodebattle.com/
+  [8]: https://blog.tse.moe/
