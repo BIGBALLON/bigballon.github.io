@@ -411,7 +411,7 @@ N皇后问题，也可以转化为精确覆盖，然后DLX模板套之。。
   [39]: http://garethrees.org/2015/11/09/exact-cover/
   [40]: http://www.cnblogs.com/grenet/p/3145800.html
   [41]: https://vjudge.net/contest/141053
-  [42]: http://pan.baidu.com/s/1i5wlU7N
+  [42]: http://pan.baidu.com/s/1mityuZA
   [43]: http://pan.baidu.com/s/1nv2PtRN
   [44]: http://pan.baidu.com/s/1o8hOBHo
   [45]: http://pan.baidu.com/s/1skGEft7
