@@ -14,6 +14,7 @@ date: 2016-07-01 21:48
 - [yizhilee][6] CHD & cs & litchi
 - [PureFrog][7]  University of Jinan & icpc
 - [Tsez's Blog][8] LLer & Linux
+- [Mg][9] XJTU & Acmer & Gold medal
 
 
 <div id="disqus_thread"></div>
@@ -36,3 +37,4 @@ date: 2016-07-01 21:48
   [6]: https://blog.yizhilee.com
   [7]: http://mycodebattle.com/
   [8]: https://blog.tse.moe/
+  [9]: http://xjtumg.me/
