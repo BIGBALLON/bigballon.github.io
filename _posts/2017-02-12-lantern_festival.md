@@ -29,7 +29,7 @@ tags: [life]
 
 祝大家元宵节快乐吧，新学期，新气象，更要，加油...
 
-ron](http://7xi3e9.com1.z0.glb.clouddn.com/45_meitu_1.jpg)
+![ron](http://7xi3e9.com1.z0.glb.clouddn.com/45_meitu_1.jpg)
 
 
 另外，陪伴我4年半的笔记本，也是时候换了，感谢你的陪伴，我打算台MSI了... 
