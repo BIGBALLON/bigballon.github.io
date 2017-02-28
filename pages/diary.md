@@ -4,13 +4,19 @@ title: Diary
 date: 2016-07-01 21:48
 ---
 
+#### 02-28 Tuesday
+
+额。。不小心把小皮卡丘丢掉了。。2333 晕
+
+![p][1]
+
 #### 02-17 Friday
 
 開學有幾天了，慢慢開始進入狀態。這學期任務比較艱巨。不過沒什麼。
 
-![][1]
 ![][2]
 ![][3]
+![][4]
 
 接下來是向DL進發了！
 
@@ -39,7 +45,7 @@ date: 2016-07-01 21:48
 祝大家元宵节快乐吧，新学期，新气象，更要，加油...
 
 
-![huhu][4]
+![huhu][5]
 
 另外，陪伴我4年半的笔记本，也是时候换了，感谢你的陪伴，我打算台MSI了... 
 
@@ -61,7 +67,7 @@ date: 2016-07-01 21:48
 祝大家元旦快乐吧。  
 我元旦应该还要lu代码！  2333333333333333333333333333333333...        
 
-![][5]
+![][6]
 
 tyyxzm
 
@@ -98,8 +104,6 @@ tyyxzm
 
 放几张图片意思一下吧。。  
 
-![][6]
-
 ![][7]
 
 ![][8]
@@ -113,6 +117,8 @@ tyyxzm
 ![][12]
 
 ![][13]
+
+![][14]
 
 
 
@@ -182,7 +188,7 @@ lab的生活很好。
 我還加了610 limited，這個確實很有效，還有感謝CL那天幫我debug到凌晨2點，thx!  
 另外膜拜一下lab的學長學姐們發的那兩篇paper，果然是TD learning在2048-like game裡面的精髓！    
 
-![1line1box1ax][14]
+![1line1box1ax][15]
 
 目前來看已經比較理想了。  
 
@@ -216,7 +222,7 @@ Lab的每一個人都好強。我也要繼續努力了。。。
 我會記住老師的話，just fight！！
 
 
-![][15]
+![][16]
 
 每年都很開心收到實驗室同學的教師節卡片 (包括兩顆泡芙 :>).   
 其實我認為, 我的學生都是藍波萬, 即使進來的時候不是, 出去的時候也一定是, 或一定要是.  
@@ -243,9 +249,9 @@ I will try my best!
 去了交大圖書館借了好多本書，，，，，，「逼格相當高，爆本科學校幾百條街」————————————   
 ——————————————   
 
-![][16]
-
 ![][17]
+
+![][18]
 
 
 
@@ -255,11 +261,11 @@ I will try my best!
 晚上一起出去吃了一個「大呼過癮」小火鍋 cost 160   
 回來重裝了系統，用的是學校的全套正版軟體，感覺相當不錯！
 
-![][18]
-
 ![][19]
 
 ![][20]
+
+![][21]
 
 明天第一天上課，UP！
 
@@ -276,9 +282,9 @@ I will try my best!
 記得週三去取郵政的儲蓄卡。  
 21號去醫院取報告單，順便去辦多次通行證。
 
-![][21]
-
 ![][22]
+
+![][23]
 
 
 
@@ -290,14 +296,14 @@ I will try my best!
 
 糞便，抽血，X光，皮膚。花了1700+塊
 
-![][23]
+![][24]
 
 回來，吃了中飯，35塊，超便宜，依林20塊，文澤45塊，子翔55塊。二餐的三樓真心實惠。
 菜多，符合大陸口味，更符合大陸南方人的口味，青菜種類多，連四季豆都有。肉種類也多，很不錯，飯免費，湯免費。  
 
 下午，，繼續新生訓練，講了好多，挺好的。   
 
-![][24]
+![][25]
 
 然後，，，去了郵局，，，交了學費，，，哈哈哈，，40000多台幣嘩嘩嘩沒了。
 然後班了個郵政的存折。。。
@@ -312,7 +318,7 @@ I will try my best!
 
 剛來這幾天估計會特別忙，，特別多事要處理。  
 
-![][25]
+![][26]
 
 中午在二餐吃了一份鸡排饭，70塊錢，，4大塊雞排，都沒吃完，分量相當足，額。。這個還是相當划算的。 另外據說三樓更便宜，50塊錢就能吃得不錯。下次去試試。。  
 
@@ -446,28 +452,29 @@ broken necklace卡了很久...
 ....
 
 
-  [1]: http://7xi3e9.com1.z0.glb.clouddn.com/1896940093.jpg
-  [2]: http://7xi3e9.com1.z0.glb.clouddn.com/1161837298.jpg
-  [3]: http://7xi3e9.com1.z0.glb.clouddn.com/1181906956.jpg
-  [4]: http://7xi3e9.com1.z0.glb.clouddn.com/45_meitu_1.jpg
-  [5]: http://7xi3e9.com1.z0.glb.clouddn.com/0.jpg
-  [6]: http://7xi3e9.com1.z0.glb.clouddn.com/ti1.jpg
-  [7]: http://7xi3e9.com1.z0.glb.clouddn.com/ti2.jpg
-  [8]: http://7xi3e9.com1.z0.glb.clouddn.com/ti3.jpg
-  [9]: http://7xi3e9.com1.z0.glb.clouddn.com/ti4.jpg
-  [10]: http://7xi3e9.com1.z0.glb.clouddn.com/ti5.jpg
-  [11]: http://7xi3e9.com1.z0.glb.clouddn.com/ti6.jpg
-  [12]: http://7xi3e9.com1.z0.glb.clouddn.com/ti7.jpg
-  [13]: http://7xi3e9.com1.z0.glb.clouddn.com/ti8.jpg
-  [14]: http://7xi3e9.com1.z0.glb.clouddn.com/1l1ax1box.png
-  [15]: http://7xi3e9.com1.z0.glb.clouddn.com/SKSK.PNG
-  [16]: http://7xi3e9.com1.z0.glb.clouddn.com/29046958239699106.jpg
-  [17]: http://7xi3e9.com1.z0.glb.clouddn.com/167103069215840681.jpg
-  [18]: http://7xi3e9.com1.z0.glb.clouddn.com/8C.tmp.png
-  [19]: http://7xi3e9.com1.z0.glb.clouddn.com/filehelper_1473609958055_98.png
-  [20]: http://7xi3e9.com1.z0.glb.clouddn.com/filehelper_1473609965104_55.png
-  [21]: http://7xi3e9.com1.z0.glb.clouddn.com/Y1kb.png
-  [22]: http://7xi3e9.com1.z0.glb.clouddn.com/Y1kc.png
-  [23]: http://7xi3e9.com1.z0.glb.clouddn.com/33434343.png
-  [24]: http://7xi3e9.com1.z0.glb.clouddn.com/2016090s9121555.png
-  [25]: http://7xi3e9.com1.z0.glb.clouddn.com/s0160908190654.png
+  [1]: http://7xi3e9.com1.z0.glb.clouddn.com/1703528_1126646787_n.png
+  [2]: http://7xi3e9.com1.z0.glb.clouddn.com/1896940093.jpg
+  [3]: http://7xi3e9.com1.z0.glb.clouddn.com/1161837298.jpg
+  [4]: http://7xi3e9.com1.z0.glb.clouddn.com/1181906956.jpg
+  [5]: http://7xi3e9.com1.z0.glb.clouddn.com/45_meitu_1.jpg
+  [6]: http://7xi3e9.com1.z0.glb.clouddn.com/0.jpg
+  [7]: http://7xi3e9.com1.z0.glb.clouddn.com/ti1.jpg
+  [8]: http://7xi3e9.com1.z0.glb.clouddn.com/ti2.jpg
+  [9]: http://7xi3e9.com1.z0.glb.clouddn.com/ti3.jpg
+  [10]: http://7xi3e9.com1.z0.glb.clouddn.com/ti4.jpg
+  [11]: http://7xi3e9.com1.z0.glb.clouddn.com/ti5.jpg
+  [12]: http://7xi3e9.com1.z0.glb.clouddn.com/ti6.jpg
+  [13]: http://7xi3e9.com1.z0.glb.clouddn.com/ti7.jpg
+  [14]: http://7xi3e9.com1.z0.glb.clouddn.com/ti8.jpg
+  [15]: http://7xi3e9.com1.z0.glb.clouddn.com/1l1ax1box.png
+  [16]: http://7xi3e9.com1.z0.glb.clouddn.com/SKSK.PNG
+  [17]: http://7xi3e9.com1.z0.glb.clouddn.com/29046958239699106.jpg
+  [18]: http://7xi3e9.com1.z0.glb.clouddn.com/167103069215840681.jpg
+  [19]: http://7xi3e9.com1.z0.glb.clouddn.com/8C.tmp.png
+  [20]: http://7xi3e9.com1.z0.glb.clouddn.com/filehelper_1473609958055_98.png
+  [21]: http://7xi3e9.com1.z0.glb.clouddn.com/filehelper_1473609965104_55.png
+  [22]: http://7xi3e9.com1.z0.glb.clouddn.com/Y1kb.png
+  [23]: http://7xi3e9.com1.z0.glb.clouddn.com/Y1kc.png
+  [24]: http://7xi3e9.com1.z0.glb.clouddn.com/33434343.png
+  [25]: http://7xi3e9.com1.z0.glb.clouddn.com/2016090s9121555.png
+  [26]: http://7xi3e9.com1.z0.glb.clouddn.com/s0160908190654.png
