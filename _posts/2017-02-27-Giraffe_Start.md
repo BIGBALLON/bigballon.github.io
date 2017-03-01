@@ -4,6 +4,8 @@ title: Something about Giraffe
 date: 2017-02-27 23:48
 ---
 
+## Run Giraffe in Ubuntu
+
 要开始trace [Giraffe][1]的code，昨天晚上和杰哥一起看了一些   
 老师留下一些问题：
 
@@ -24,7 +26,24 @@ date: 2017-02-27 23:48
 > [Windows安装GNU编译器使用makefile][2]  
 > [MinGW下pthread和openMP的配置][3]  
 
+
+于是乎，用teamviewer连到宿舍自己的ubuntu，先安了lua，然后安装torch，第一次装的时候不小心用来sudo权限，貌似没成功所以luaT.h找不到，第二次装看起来就比较舒服，还好学校网速快，要是大陆的话搞不好源的问题还是其他我又要装很久。还有就是要记住，看文档最好看完整，看一半装完可能有问题。不过torch也装了蛮久的。
+
+> [The Programming Language Lua][7]  
+> [Getting started with Torch][8]
+
+先这样吧，明天再看看有什么新的进度！
+
+反正现在我在Linux已经可以run起来而且train也是可以的！
+
+![train][9]
+
+
+
+## Run Giraffe in Windows(not use torch)
+
 ---
+
 
 好吧，还是想试试看在Windows下面能不能run起来。
 首先是安装lua，在Windows下面真的是比较麻烦，官网给出了如下一句话：
@@ -52,19 +71,14 @@ date: 2017-02-27 23:48
 
 ![][6]
 
+## Conclusion
+
 ---
 
+请不要早Windows上面搞Deep learning的东西，虽然tensorflow已经支持Windows了，但是我还是希望在Linux下面作业。  
+minGW还是给力吖，另外makefile也是给力啊。233
 
-于是乎，用teamviewer连到宿舍自己的ubuntu，先安了lua，然后安装torch，第一次装的时候不小心用来sudo权限，貌似没成功所以luaT.h找不到，第二次装看起来就比较舒服，还好学校网速快，要是大陆的话搞不好源的问题还是其他我又要装很久。还有就是要记住，看文档最好看完整，看一半装完可能有问题。不过torch也装了蛮久的。
 
-> [The Programming Language Lua][7]  
-> [Getting started with Torch][8]
-
-先这样吧，明天再看看有什么新的进度！
-
-反正现在我在Linux已经可以run起来而且train也是可以的！
-
-![train][9]
 
 
   [1]: https://bitbucket.org/waterreaction/giraffe/overview
