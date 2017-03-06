@@ -75,7 +75,7 @@ date: 2017-02-27 23:48
 
 ---
 
-请不要早Windows上面搞Deep learning的东西，虽然tensorflow已经支持Windows了，但是我还是希望在Linux下面作业。  
+请不要在Windows上面搞Deep learning的东西，虽然tensorflow已经支持Windows了，但是我还是希望在Linux下面作业。  
 minGW还是给力吖，另外makefile也是给力啊。233
 
 
