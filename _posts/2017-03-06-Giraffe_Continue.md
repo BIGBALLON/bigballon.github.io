@@ -5,9 +5,9 @@ date: 2017-02-27 23:48
 ---
 
 
-先解決老師留的幾個問題再說吧，23333 XD.
-[Giraffe][1] 是一個將 Deep Reinforcement Learning 和 Neural Network 结合到一起的Chess AI 程式。
-作者 [Matthew Lai][2] 是一個了不起的人，目前就職於 Google Deepmind.
+先解決老師留的幾個問題再說吧，23333 XD.  
+[Giraffe][1] 是一個將 Deep Reinforcement Learning 和 Neural Network 结合到一起的Chess AI 程式。  
+作者 [Matthew Lai][2] 是一個了不起的人，目前就職於 Google Deepmind.  
 
 隨著AlphaGo席捲全球，隨著Deep learning在這幾年越炒越熱，幾乎同一時間所有其他game AI都在尋求新的突破辦法或者是嘗試。
 
@@ -17,7 +17,7 @@ date: 2017-02-27 23:48
 ## Investigate features (363) related to bitboard (or map), rules? 
 
 
-作者在bitbucket上最新的Version，總共有368個features.
+作者在bitbucket上最新的Version，總共有368個features.  
 大致來看確實僅僅包括一些簡單的Rule.
 
 - number of each piece
@@ -36,10 +36,10 @@ date: 2017-02-27 23:48
 
 ## Search nodebudget (256? Quiescence search? Probabilistic Search?), epoch moves (64? or 12?)
 
-- 在進行TDLeaf(lambda)的training的時候，最多會走64個move, 也就是TDLeaf的$D=64$。
-另外search時候的限制的節點數SearchNodeBudget確實是$256$，新版的code是$512$
+- 在進行TDLeaf(lambda)的training的時候，最多會走64個move, 也就是TDLeaf的$D=64$。  
+另外search時候的限制的節點數SearchNodeBudget確實是$256$，新版的code是$512$  
 
-- 在實際search中，使用的是Iterative Deepning，步長擴大倍數SearchNodeBudget為$4$
+- 在實際search中，使用的是Iterative Deepning，步長擴大倍數SearchNodeBudget為$4$  
 
 - Quiescence search? 答案是有用到Q-Search
 
@@ -57,7 +57,7 @@ date: 2017-02-27 23:48
 
 ## Verify whether it does run Probabilistic Search?
 
-我的理解是訓練的時候沒有Probabilistic Search，或者是可用也可不用？
+我的理解是訓練的時候沒有Probabilistic Search，或者是可用也可不用？  
 因為如果沒有訓練好的net的話，使用的是static evaluation。
 
 
