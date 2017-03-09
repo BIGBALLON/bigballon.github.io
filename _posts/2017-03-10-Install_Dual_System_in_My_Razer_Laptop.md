@@ -74,3 +74,19 @@ date: 2017-03-10 23:48
 ### 0X000005 终于有一款活力十足的利器了
 
 ![nice][15]
+
+  [1]: http://7xi3e9.com1.z0.glb.clouddn.com/r1.jpg
+  [2]: http://7xi3e9.com1.z0.glb.clouddn.com/r2.jpg
+  [3]: http://7xi3e9.com1.z0.glb.clouddn.com/r4.jpg
+  [4]: http://7xi3e9.com1.z0.glb.clouddn.com/r5.jpg
+  [5]: http://7xi3e9.com1.z0.glb.clouddn.com/r6.jpg
+  [6]: http://7xi3e9.com1.z0.glb.clouddn.com/r7.jpg
+  [7]: http://7xi3e9.com1.z0.glb.clouddn.com/r9.jpg
+  [8]: http://7xi3e9.com1.z0.glb.clouddn.com/20170308135028.png
+  [9]: http://7xi3e9.com1.z0.glb.clouddn.com/razer01.png
+  [10]: http://7xi3e9.com1.z0.glb.clouddn.com/20170308134716.jpg
+  [11]: http://7xi3e9.com1.z0.glb.clouddn.com/20170308134725.png
+  [12]: http://7xi3e9.com1.z0.glb.clouddn.com/20170308134737.png
+  [13]: http://7xi3e9.com1.z0.glb.clouddn.com/20170308134732.png
+  [14]: http://7xi3e9.com1.z0.glb.clouddn.com/20170308134742.jpg
+  [15]: http://7xi3e9.com1.z0.glb.clouddn.com/webwxgetmsgimg.jpg
