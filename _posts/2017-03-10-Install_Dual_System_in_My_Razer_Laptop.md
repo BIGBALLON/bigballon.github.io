@@ -14,22 +14,22 @@ date: 2017-03-10 23:58
 - Chrome（开启Edge第一时间下载了Chrome，Google的同步功能我，绝对的赞）
 - CCleaner（这东西是我唯一喜欢的清理软件）
 - FileZilla（下载FileZilla赶紧连上学校的ftp）
-- QQ拼音（搜狗的广告简直不能忍，这个是我唯一会用的腾讯软件了）
-- TIM（好吧我打脸来，新出来个TIM，测了一下bug多多，不过干净啊，从此QQ真的真的被大家废弃了，偶耶）
+- QQ拼音（搜狗的广告简直不能忍，这恐怕是我唯一会用的腾讯软件了）
+- TIM（好吧我打脸来，新出了个TIM，测了一下bug多多，不过干净啊，从此QQ真的真的被大家废弃了，偶耶）
 - Codeblocks（其实只是癖好罢了，现在真的很少用CB了，另外GCC也用的6.3版本了）
 - minGW64（赶忙装上minGW64）
 - Git（这东西没有还怎么玩耍）
 - Sublime（这东西没有更没办法玩耍）
 - 网易云音乐（Linux下出了release版后，我就对它好评了）
 - Office 2016（这时候从学校FTP下载的大批东西也都下好了，在NCTU天天用正版，超爽）
-- Visual studio 2015（同样正版不解释）
+- Visual studio 2015（同样正版不解释，2333）
 - Texlive（这东西不能少吧）
 - Teamviewer（这个更不能少，在连wifi的时候必须要用这个啊，话说我Razer没有网口，也必须用这个了）
 - Matlab2016A（正版就是爽，2333，读研之后才发现matlab如此强大，不愧是马特拉不）
 - Windows linux system（装了WLS，然后装了Teminator，效果简直日天，和Linux还是差好远）
 - Teminator（本来被我给予厚望，后来失望了，不过还是感谢这位[大佬][1]）
 - Anaconda（这东西还是很好用的，jupyter和spyder好评）
-- Rstudio（纯粹为了部落）
+- Rstudio（纯粹为了部落，不，我是为了联盟）
 - Weka（其实weka这东西真的很弱）
 - putty（这个，貌似没有这个好像也没办法活下去）
 
@@ -211,14 +211,16 @@ timedatectl set-local-rtc 1 --adjust-system-clock
 
 ---
 
-最近的研究有了一点点新的进展，曙光还是有的，继续努力吧。  
-Seminar OK 图：
+最近的研究有了一点点新的进展，曙光还是有的，继续努力吧，Seminar OK 图:
 
 ![p2][29]
 
 
+Go ahead!!!!
 
-to be continue
+---
+
+![caffe][30]
 
 
   [1]: https://blog.cyplo.net/posts/2016/07/06/terminal-emulator-windows-10-bash.html
@@ -250,3 +252,4 @@ to be continue
   [27]: http://askubuntu.com/questions/511432/the-resume-after-suspend-problem
   [28]: http://askubuntu.com/questions/769496/16-04-will-not-resume-after-suspend
   [29]: http://7xi3e9.com1.z0.glb.clouddn.com/1849_n.png
+  [30]: http://7xi3e9.com1.z0.glb.clouddn.com/caffe_tensorflow.png
