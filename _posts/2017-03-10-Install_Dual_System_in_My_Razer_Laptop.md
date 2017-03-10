@@ -95,7 +95,7 @@ sudo pip3 install scikit-image
 #### Unstopabble
 
 - 于是乎，装Nvidia， CUDA， cudnn，caffe， tensorflow。
-- 测试良好，，，第二天上课，发现，如果我把电脑盖上再打开，也就是从睡眠到唤醒，就会出花屏，GOD
+- 测试良好，，，第二天上课，发现，如果我把电脑盖上再打开，也就是从睡眠到唤醒，就会出花屏，GOD，后来发现这是一个open bug，，，而且貌似很多laptop都会，，，23333，，都这么久了ubuntu这个bug还在啊，希望17.04 出来的时候能够fix这个bug吧，，其实本来已经很完美了。结果呵呵了。。。因为追求极致所以还是觉得ubuntu有点问题。但是因为要做Deep Learning的缘故其他发行版的Linux就更扯淡了。23333.好吧，我会等17.04的更新的。
 
 ![][3]
 
@@ -183,27 +183,28 @@ timedatectl set-local-rtc 1 --adjust-system-clock
 
 #### Installation(III)
 
+目前不想写，，原来倒是在知乎 有过一个很简短的 [回答][13]  
 ......to be continue
 
 ### 0X00003 References
 
 ---
 
-- [Guide to installing Ubuntu on the Razer Blade 14 (2016)][13]
-- [Installing Ubuntu 16.04 on Razer Blade (2016)][14]
-- [Ubuntu 14.04 (trusty) installation on Razer blade 2016][15]
-- [killernetworking-amazing][16]
-- [Index of /ubuntu/pool/main/l/linux-firmware/][17]
-- [How to Fix Time Differences in Ubuntu 16.04 & Windows 10 Dual Boot][18]
-- [How do I install a .deb file via the command line?][19]
-- [Change default width of gnome-terminal and terminator windows][20]
-- [Ubuntu16.04 安装配置Caffe][21]
-- [深度学习主机环境配置: Ubuntu16.04+GeForce GTX 1080+TensorFlow][22]
-- [Installing with virtualenv][23]
-- [Ubuntu14.04 + Nvidia Cuda8.0 + Caffe][24] 
-- [Ubuntu Intel显卡驱动安装 （Ubuntu 14.04--Ubuntu 16.10 + Intel® Graphics Update Tool）][25]
-- [Cannot resume from suspend ubuntu 16.04 Gnome][26]
-- [16.04 Will not Resume after Suspend][27]
+- [Guide to installing Ubuntu on the Razer Blade 14 (2016)][14]
+- [Installing Ubuntu 16.04 on Razer Blade (2016)][15]
+- [Ubuntu 14.04 (trusty) installation on Razer blade 2016][16]
+- [killernetworking-amazing][17]
+- [Index of /ubuntu/pool/main/l/linux-firmware/][18]
+- [How to Fix Time Differences in Ubuntu 16.04 & Windows 10 Dual Boot][19]
+- [How do I install a .deb file via the command line?][20]
+- [Change default width of gnome-terminal and terminator windows][21]
+- [Ubuntu16.04 安装配置Caffe][22]
+- [深度学习主机环境配置: Ubuntu16.04+GeForce GTX 1080+TensorFlow][23]
+- [Installing with virtualenv][24]
+- [Ubuntu14.04 + Nvidia Cuda8.0 + Caffe][25] 
+- [Ubuntu Intel显卡驱动安装 （Ubuntu 14.04--Ubuntu 16.10 + Intel® Graphics Update Tool）][26]
+- [Cannot resume from suspend ubuntu 16.04 Gnome][27]
+- [16.04 Will not Resume after Suspend][28]
 
 
 ### 0X00004 完美的Razer Blade
@@ -213,7 +214,7 @@ timedatectl set-local-rtc 1 --adjust-system-clock
 最近的研究有了一点点新的进展，曙光还是有的，继续努力吧。  
 Seminar OK 图：
 
-![p2][28]
+![p2][29]
 
 
 
@@ -232,19 +233,20 @@ to be continue
   [10]: http://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/
   [11]: https://www.reddit.com/r/razer/comments/5e82i0/guide_to_installing_ubuntu_on_the_razer_blade_14/
   [12]: https://xipherzero.com/ubuntu-16-04-razer-blade-2016/
-  [13]: https://www.reddit.com/r/razer/comments/5e82i0/guide_to_installing_ubuntu_on_the_razer_blade_14/
-  [14]: https://xipherzero.com/ubuntu-16-04-razer-blade-2016/
-  [15]: https://github.com/wecacuee/razer-blade-ubuntu-trusty-installation
-  [16]: http://www.killernetworking.com/driver-downloads/knowledge-base?view=topic&id=2
-  [17]: http://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/
-  [18]: http://ubuntuhandbook.org/index.php/2016/05/time-differences-ubuntu-1604-windows-10/
-  [19]: http://askubuntu.com/questions/40779/how-do-i-install-a-deb-file-via-the-command-line
-  [20]: http://askubuntu.com/questions/4371/change-default-width-of-gnome-terminal-and-terminator-windows
-  [21]: http://www.cnblogs.com/xuanxufeng/p/6150593.html
-  [22]: http://www.52nlp.cn/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%BB%E6%9C%BA%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE-ubuntu16-04-geforce-gtx1080-tensorflow
-  [23]: https://www.tensorflow.org/install/install_linux#InstallingVirtualenv
-  [24]: http://blog.csdn.net/yan_song_/article/details/53154611
-  [25]: http://blog.csdn.net/zhangrelay/article/details/53482596
-  [26]: http://askubuntu.com/questions/511432/the-resume-after-suspend-problem
-  [27]: http://askubuntu.com/questions/769496/16-04-will-not-resume-after-suspend
-  [28]: http://7xi3e9.com1.z0.glb.clouddn.com/1849_n.png
+  [13]: https://www.zhihu.com/question/19811112/answer/145442962
+  [14]: https://www.reddit.com/r/razer/comments/5e82i0/guide_to_installing_ubuntu_on_the_razer_blade_14/
+  [15]: https://xipherzero.com/ubuntu-16-04-razer-blade-2016/
+  [16]: https://github.com/wecacuee/razer-blade-ubuntu-trusty-installation
+  [17]: http://www.killernetworking.com/driver-downloads/knowledge-base?view=topic&id=2
+  [18]: http://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/
+  [19]: http://ubuntuhandbook.org/index.php/2016/05/time-differences-ubuntu-1604-windows-10/
+  [20]: http://askubuntu.com/questions/40779/how-do-i-install-a-deb-file-via-the-command-line
+  [21]: http://askubuntu.com/questions/4371/change-default-width-of-gnome-terminal-and-terminator-windows
+  [22]: http://www.cnblogs.com/xuanxufeng/p/6150593.html
+  [23]: http://www.52nlp.cn/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%BB%E6%9C%BA%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE-ubuntu16-04-geforce-gtx1080-tensorflow
+  [24]: https://www.tensorflow.org/install/install_linux#InstallingVirtualenv
+  [25]: http://blog.csdn.net/yan_song_/article/details/53154611
+  [26]: http://blog.csdn.net/zhangrelay/article/details/53482596
+  [27]: http://askubuntu.com/questions/511432/the-resume-after-suspend-problem
+  [28]: http://askubuntu.com/questions/769496/16-04-will-not-resume-after-suspend
+  [29]: http://7xi3e9.com1.z0.glb.clouddn.com/1849_n.png
