@@ -222,6 +222,8 @@ Go ahead!!!!
 
 ![caffe][30]
 
+![desktop][31]
+
 
   [1]: https://blog.cyplo.net/posts/2016/07/06/terminal-emulator-windows-10-bash.html
   [2]: http://7xi3e9.com1.z0.glb.clouddn.com/050954055_o.png
@@ -253,3 +255,4 @@ Go ahead!!!!
   [28]: http://askubuntu.com/questions/769496/16-04-will-not-resume-after-suspend
   [29]: http://7xi3e9.com1.z0.glb.clouddn.com/1849_n.png
   [30]: http://7xi3e9.com1.z0.glb.clouddn.com/caffe_tensorflow.png
+  [31]: http://7xi3e9.com1.z0.glb.clouddn.com/379713703_o.jpg
