@@ -4,6 +4,8 @@ title: Learn Tensorflow Hard Way (I) Installation
 date: 2017-03-13 0:58
 ---
 
+打算正儿八经开始学习和使用tensorflow。
+
 古人有云： 
 
 > 工欲善其事必先利其器
@@ -114,11 +116,14 @@ sudo ./cuda_8.0.61_375.26_linux-run
 
 ```
 sudo vi ~/.bashrc  
-//加入这两行
-export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+//加入这两行， LD_LIBRARY_PATH 和 CUDA_HOME 都不能少
+export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64
 export CUDA_HOME=/usr/local/cuda-8.0
+```
 
-//使环境变量生效
+保存后，务必使环境变量生效
+
+```
 source ~/.bashrc
 ```
 
@@ -154,29 +159,31 @@ sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda-8.0/lib64/libcudn
 ```
 sudo apt-get install libcupti-dev
 ```
-- 安装python-pip
+- 安装python-pip python-dev 并更新到最新版
 
 ```
 sudo apt-get install python-pip python-dev
 //python3
 sudo apt-get install python3-pip
 pip install -U pip
+pip3 install --upgrade pip
 ```
 
 - 安装tensorflow
 
 ```
 //python
-pip2 install tensorflow-gpu
+sudo pip2 install tensorflow-gpu
 //python3
-pip3 install tensorflow-gpu
+sudo pip3 install tensorflow-gpu
 ```
 
-- 测试
+- 测试1
 
-开启一个terminal
+开启一个terminal,这里我测试py3下的tensorflow。
 
 ```
+bigballon@Blade:~$ python3
 >>> import tensorflow as tf
 >>> hello = tf.constant('Hello, TensorFlow!')
 >>> sess = tf.Session()
@@ -189,10 +196,78 @@ pip3 install tensorflow-gpu
 Hello, TensorFlow!
 ```
 
-安装成功
+- 测试2
+
+安装jupyer
+
+```
+sudo pip3 install jupyter
+```
+
+开启jupyter notebook
+
+```
+jupyter notebook
+```
+New->python3, 新建一个文件，输入如下 代码(来自[Mandelbrot Set][5])
+
+```
+# Import libraries for simulation
+import tensorflow as tf
+import numpy as np
+
+# Imports for visualization
+import PIL.Image
+from io import BytesIO
+from IPython.display import Image, display
+
+def DisplayFractal(a, fmt='jpeg'):
+  """Display an array of iteration counts as a
+     colorful picture of a fractal."""
+  a_cyclic = (6.28*a/20.0).reshape(list(a.shape)+[1])
+  img = np.concatenate([10+20*np.cos(a_cyclic),
+                        30+50*np.sin(a_cyclic),
+                        155-80*np.cos(a_cyclic)], 2)
+  img[a==a.max()] = 0
+  a = img
+  a = np.uint8(np.clip(a, 0, 255))
+  f = BytesIO()
+  PIL.Image.fromarray(a).save(f, fmt)
+  display(Image(data=f.getvalue()))
+
+sess = tf.InteractiveSession()
+
+Y, X = np.mgrid[-1.3:1.3:0.005, -2:1:0.005]
+Z = X+1j*Y
+
+xs = tf.constant(Z.astype(np.complex64))
+zs = tf.Variable(xs)
+ns = tf.Variable(tf.zeros_like(xs, tf.float32))
+
+tf.global_variables_initializer().run()
+
+zs_ = zs*zs + xs
+
+step = tf.group(
+  zs.assign(zs_),
+  ns.assign_add(tf.cast(not_diverged, tf.float32))
+  )
+
+for i in range(200): step.run()
+
+DisplayFractal(ns.eval())
+
+```
+
+![success][6]
+
+
+安装成功，Take it easy!
 
 
   [1]: https://www.ubuntu.com/download/desktop
   [2]: https://developer.nvidia.com/cuda-downloads
   [3]: https://developer.nvidia.com/rdp/cudnn-download
   [4]: https://www.tensorflow.org/install/
+  [5]: https://www.tensorflow.org/tutorials/mandelbrot
+  [6]: http://7xi3e9.com1.z0.glb.clouddn.com/8899.png
