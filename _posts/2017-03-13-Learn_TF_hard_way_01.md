@@ -1,10 +1,8 @@
-# Learn Tensorflow Hard Way (I) Installation
-
-标签（空格分隔）： tensorflow
-
 ---
-
-打算正儿八经开始学习和使用tensorflow。
+layout: post
+title: Learn Tensorflow Hard Way (I) Installation
+date: 2017-03-13 0:58
+---
 
 古人有云： 
 
