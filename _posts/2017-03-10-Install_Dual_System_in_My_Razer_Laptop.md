@@ -31,7 +31,7 @@ date: 2017-03-10 23:58
 - Anaconda（这东西还是很好用的，jupyter和spyder好评）
 - Rstudio（纯粹为了部落，不，我是为了联盟）
 - Weka（其实weka这东西真的很弱）
-- putty（这个，貌似没有这个好像也没办法活下去）
+- putty（这个，貌似没有这个好像也没办法活下去,好吧，后来我换成了mobaXterm）
 
 ![p1][2]
 
@@ -226,7 +226,7 @@ Go ahead!!!!
 
 
   [1]: https://blog.cyplo.net/posts/2016/07/06/terminal-emulator-windows-10-bash.html
-  [2]: http://7xi3e9.com1.z0.glb.clouddn.com/050954055_o.png
+  [2]: http://7xi3e9.com1.z0.glb.clouddn.com/0314003204.png
   [3]: http://7xi3e9.com1.z0.glb.clouddn.com/0_794669662_o.png
   [4]: http://ubuntugnome.org/
   [5]: http://ubuntugnome.org/
