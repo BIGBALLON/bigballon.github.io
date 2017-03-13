@@ -105,7 +105,7 @@ sudo apt-get update && sudo apt-get upgrade
 ---
 
 - 从[官网][2]下载CUDA文件(ex. cuda_8.0.61_375.26_linux-run )
-- 加执行权限并安装
+- 加执行权限并安装(在选择是否安装显卡驱动时选择no)
 
 ```
 cd Downloads/
@@ -220,7 +220,6 @@ import numpy as np
 import PIL.Image
 from io import BytesIO
 from IPython.display import Image, display
-
 def DisplayFractal(a, fmt='jpeg'):
   """Display an array of iteration counts as a
      colorful picture of a fractal."""
@@ -234,27 +233,31 @@ def DisplayFractal(a, fmt='jpeg'):
   f = BytesIO()
   PIL.Image.fromarray(a).save(f, fmt)
   display(Image(data=f.getvalue()))
-
 sess = tf.InteractiveSession()
-
 Y, X = np.mgrid[-1.3:1.3:0.005, -2:1:0.005]
 Z = X+1j*Y
-
 xs = tf.constant(Z.astype(np.complex64))
 zs = tf.Variable(xs)
 ns = tf.Variable(tf.zeros_like(xs, tf.float32))
-
 tf.global_variables_initializer().run()
-
+# Compute the new values of z: z^2 + x
 zs_ = zs*zs + xs
 
+# Have we diverged with this new value?
+not_diverged = tf.abs(zs_) < 4
+
+# Operation to update the zs and the iteration count.
+#
+# Note: We keep computing zs after they diverge! This
+#       is very wasteful! There are better, if a little
+#       less simple, ways to do this.
+#
 step = tf.group(
   zs.assign(zs_),
   ns.assign_add(tf.cast(not_diverged, tf.float32))
   )
 
 for i in range(200): step.run()
-
 DisplayFractal(ns.eval())
 
 ```
