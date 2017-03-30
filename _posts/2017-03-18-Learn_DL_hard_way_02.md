@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Learn Tensorflow Hard Way (II) MNIST For ML Beginners
+title: Learn Deep Learning Hard Way (II) MNIST For ML Beginners
 date: 2017-03-18 0:58
 ---
 
@@ -172,7 +172,7 @@ print("test accuracy %g"%accuracy.eval(feed_dict={x: mnist.test.images, y_: mnis
 最后的结果Test accuracy 可以达到99.2%，这就比较理想了！
 
 ```
-tep 0, training accuracy 0.16
+step 0, training accuracy 0.16
 step 100, training accuracy 0.8
 step 200, training accuracy 0.92
 step 300, training accuracy 0.86

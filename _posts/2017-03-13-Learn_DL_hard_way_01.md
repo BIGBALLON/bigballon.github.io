@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Learn Tensorflow Hard Way (I) Installation
+title: Learn Deep Learning Hard Way (I) Tensorflow Installation
 date: 2017-03-13 0:58
 ---
 
-打算正儿八经开始学习和使用tensorflow。
+打算正儿八经开始学习和使用Deep Learning。
 
 古人有云： 
 
