@@ -21,6 +21,7 @@ I used Keras to implement these models and test the following requirements:
     - 2(LReLU, Maxout) X 1(with BN) X 1(with weight initial)
 
 ## PART 2: Experiment setup
+---
 
 - Architecture Details
 
@@ -42,6 +43,7 @@ I used Keras to implement these models and test the following requirements:
     - Horizontal flipping with probability 0.5
 
 ## PART 3: Result
+---
 
 I just test all of the 8 models, it cost about 3 hours(2h59m) to train a model (ELU+BN+WI), (ELU+BN), (BN) and (BN+WI), 1h35min for the other models.
 All of the 8 CNN models’ final test accuracy are more than 90%. 
@@ -53,6 +55,7 @@ See the table and figures below for detailed results
 ![][3]
 
 ## PART 4: Other experiments & Discussion
+---
 
 In lab4, we used lots of tricks and method to improve our model’s accuracy.
 
@@ -63,6 +66,7 @@ WI (ReLU + He’s weight initial + without BN) got the worst accuracy compared w
 Different activation function will have different effect, ELU and LeakyReLU have better performance than ReLU. As for maxout, I tried to use it, but it seems that my code doesn’t work. 
 
 ## PART 5: References
+---
 
 - Maas, A. L., Hannun, A. Y., & Ng, A. Y. (2013, June). Rectifier nonlinearities improve neural network acoustic models. In Proc. ICML (Vol. 30, No. 1).
 - Clevert, D. A., Unterthiner, T., & Hochreiter, S. (2015). Fast and accurate deep network learning by exponential linear units (elus). arXiv preprint arXiv:1511.07289.
