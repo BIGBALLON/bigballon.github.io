@@ -38,6 +38,8 @@ The main contribution of VGG model is a thorough evaluation of networks of incre
         - Change the final fully connected layer
 
 ## PART 2: Experiment setup
+---
+
 
 - Architecture Details
 
@@ -74,6 +76,8 @@ The main contribution of VGG model is a thorough evaluation of networks of incre
 
 
 ## PART 3: Result
+---
+
 
 > Object recognition system:
 
@@ -97,6 +101,8 @@ The main contribution of VGG model is a thorough evaluation of networks of incre
 
 
 ## PART 4: Other experiments
+---
+
 
 - RI and Retrain w/wo WI
 
@@ -113,6 +119,7 @@ The main contribution of VGG model is a thorough evaluation of networks of incre
 ![lab510][11]
 
 ## PART 5: Discussion 
+---
 
 - About overfitting:
 
