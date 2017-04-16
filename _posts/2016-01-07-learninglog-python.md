@@ -18,10 +18,12 @@ tags: [ipcp, python]
 - [Python 入门指南 ¶][1]
 - [The Python Tutorial ¶][2]
 - [Python 2.7教程 - 廖雪峰 ¶][3]
-- [循序渐进学Python ¶][4]
-- [30个有关Python的小技巧 ¶][5]
-- [Python字符编码详解 ¶][6]
-- [Python函数式编程指南：目录和参考 ¶][7]
+- [Python 3教程 - 廖雪峰 ¶][4]
+- [循序渐进学Python ¶][5]
+- [30个有关Python的小技巧 ¶][6]
+- [Python字符编码详解 ¶][7]
+- [整理的一些Python学习资料][8]
+- [Python初学者（零基础学习Python、Python入门）书籍、视频、资料、社区推荐][9]
 
 ## 1. 数据结构 ¶
 
@@ -85,7 +87,9 @@ python中的tuple 类似于C语言中的常量，是不可修改的。
   [1]: http://www.pythondoc.com/pythontutorial27/index.html
   [2]: https://docs.python.org/2.7/tutorial/index.html
   [3]: http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000
-  [4]: http://www.cnblogs.com/IPrograming/category/476786.html
-  [5]: http://blog.jobbole.com/63320/
-  [6]: http://www.cnblogs.com/huxi/archive/2010/12/05/1897271.html
-  [7]: http://www.cnblogs.com/huxi/archive/2011/07/15/2107536.html
+  [4]: http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000
+  [5]: http://www.cnblogs.com/IPrograming/category/476786.html
+  [6]: http://blog.jobbole.com/63320/
+  [7]: http://www.cnblogs.com/huxi/archive/2010/12/05/1897271.html
+  [8]: http://www.jianshu.com/p/e9bb36a5d63f
+  [9]: https://github.com/Yixiaohan/codeparkshare
