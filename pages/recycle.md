@@ -6,7 +6,7 @@ date: 2016-12-01 21:48
 
 这是我的回收站，回收一些有的没的「videos」「ppts」or「slides」。balabalabalabla
 
-
+  
 
 > 研究生阶段：「短期（1年）内不提供下载，thanks」
 
@@ -15,9 +15,13 @@ date: 2016-12-01 21:48
 - Design and Development of Online Judge System
 - PM2.5 Sensor Reliability
 - Dual Lambda Search and Shogi Endgames
+- Dancing Links and Exact Cover
+- Giraffe Using Deep Reinforcement Learning to Play Chess
+- Short-Term Quantitative Precipitation Forecasting
+- Reinforcement Learning with Unsupervised Auxiliary Tasks
+- Solving physical problems with Deep Reinforcement Learning
 
-
-
+  
 
 > 大学以及高中时代：
 
