@@ -109,8 +109,8 @@ sudo apt-get update && sudo apt-get upgrade
 
 ```
 cd Downloads/
-sudo chmod a+x cuda_8.0.61_375.26_linux-run
-sudo ./cuda_8.0.61_375.26_linux-run
+sudo chmod a+x cuda_8.0.61_375.26_linux.run
+sudo ./cuda_8.0.61_375.26_linux.run
 ```
 - 设置环境变量
 
