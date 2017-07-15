@@ -5,6 +5,18 @@ categories: [math]
 tags: [math]
 ---
 
+本章主要内容：
+
+---
+
+- 什么是向量空间(What is Vector Space?)
+- 什么是子空间(What is Subspace?)
+- 线性组合(Linear combination) 与 张成(Span)
+- 线性相关(Linear Dependence) 与 线性无关(Linear Independence)
+- 基底(Basis) 与 维度(Dimension)
+
+
+
 ## Vector Spaces (向量空间)
 
 ---
@@ -58,9 +70,9 @@ tags: [math]
 ### Theorem1.3
 
 > $W \subset V$, where $V$ is a VS. Then $W$ is subspace of $V  \Leftrightarrow$    
-> (a) $\vec{0} \in W.$  (VS-3)  
+> (a) $\vec{0} \in W.$  (VS3)  
 > (b) $x+y \in W \text{ whenever } x,y \in W.$    (VS-1)  
-> (c) $cx \in W \text{ whenever } c \in F,x \in W.$   (VS-0)  
+> (c) $cx \in W \text{ whenever } c \in F,x \in W.$   (VS0)  
 
 
 ### Theorem1.4
@@ -114,11 +126,11 @@ Definition of **span(张成)**:
 
 
 
-##   Bases and Dimension (基低和维度)
+##   Basis and Dimension (基低和维度)
 
 ---
 
-一个向量空间的building block 是一组 linearly independent generating(l.i.g.) set，就如基本粒子之于物理世界。本章节是要找一组“不多”也“不少”的集合能生成一个向量空间。此“恰好”的集合称为此向量空间的基底(basis)，此基底的元素的个数称为此向量空间的维度(dimention)
+一个向量空间的 building block 是一组 linearly independent generating(l.i.g.) set，就如基本粒子之于物理世界。本章节是要找一组“不多”也“不少”的集合能生成一个向量空间。此“恰好”的集合称为此向量空间的基底(basis)，此基底的元素的个数称为此向量空间的维度(dimention)
 
 Definition of **Basis**:
 
@@ -136,7 +148,7 @@ Definition of **Basis**:
 - Remark:
     - 一个向量空间若其基底个数是有限的，则上述定理显示 $$V \cong F_{n}$$
     - 这里主要讨论的是有限基底得到向量空间.
-    - 一个向量空间基底的元素个数不一定是有限的，但theorem1.9告诉我们，若此向量空间可以由一有限集合所生成，则此向量空间必有一个有限基底。
+    - 一个向量空间基底的元素个数不一定是有限的，但Theorem1.9告诉我们，若此向量空间可以由一有限集合所生成，则此向量空间必有一个有限基底。
 
 ### Theorem1.9
 
