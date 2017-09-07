@@ -41,6 +41,53 @@ ssh -L 16006:127.0.0.1:6006 account@server.address
 ```
 
 
+- [查看tensorflow版本][3]
+
+```
+pip list | grep tensorflow
+//or
+python -c 'import tensorflow as tf; print(tf.__version__)'
+```
+
+
+- tf.app.run & tf.app.flags 用法
+
+Runs the program with an optional 'main' function and 'argv' list.
+
+```
+def run(main=None, argv=None):
+  """Runs the program with an optional 'main' function and 'argv' list."""
+  f = flags.FLAGS
+
+  # Extract the args from the optional `argv` list.
+  args = argv[1:] if argv else None
+
+  # Parse the known flags from that list, or from the command
+  # line otherwise.
+  # pylint: disable=protected-access
+  flags_passthrough = f._parse_flags(args=args)
+  # pylint: enable=protected-access
+
+  main = main or _sys.modules['__main__'].main
+
+  # Call the main function, passing through any arguments
+  # to the final program.
+  _sys.exit(main(_sys.argv[:1] + flags_passthrough))
+```
+
+```
+FLAGS = tf.app.flags.FLAGS
+
+tf.app.flags.DEFINE_string('log_save_path', './nin_logs', 'Directory where to save tensorboard log')
+tf.app.flags.DEFINE_string('model_save_path', './model/', 'Directory where to save model weights')
+tf.app.flags.DEFINE_integer('batch_size', 128, 'batch size')
+tf.app.flags.DEFINE_integer('iteration', 391, 'iteration')
+tf.app.flags.DEFINE_float('weight_decay', 0.0001, 'weight decay')
+tf.app.flags.DEFINE_float('dropout', 0.5, 'dropout')
+tf.app.flags.DEFINE_float('epochs', 164, 'epochs')
+tf.app.flags.DEFINE_float('momentum', 0.9, 'momentum')
+```
 
   [1]: http://www.cnblogs.com/darkknightzh/p/6591923.html
   [2]: https://stackoverflow.com/questions/38513333/is-it-possible-to-see-tensorboard-over-ssh
+  [3]: https://stackoverflow.com/questions/38549253/how-to-find-which-version-of-tensorflow-is-installed-in-my-system

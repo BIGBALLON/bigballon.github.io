@@ -1,20 +1,15 @@
 ---
 layout: post
 title: About
-date: 2016-07-01 21:48
+date: 2017-08-21 22:48
 ---
 
 Hi, man! Thanks for reading my personal website.
 
 My name is Wei Li. I am a pre acmer, pre ppter.
 
-Now, I am a graduate student at [CGI Lab][1] of NCTU([National Chiao Tung University][2]).     
-My main research area is [computer game AI][3]( Go, Hex, 2048, Chess, Chinese Chess, Mahjong etc. ).   
-Now, I'm focus on RL( Reinforcement Learning ) & DL ( Deep Learning ) 「Chinese Chess AI and 2048([2584][4]) AI.   
-The main task is to modify the Chinese Chess AI during my postgraduate. 
-
-I’m interested in machine learning, especially reinforcement Learning.  
-
+Now, I am a graduate student at [Computer Games and Intelligence(CGI) Lab][1] of NCTU([National Chiao Tung University][2]).     
+My main research area is Deep Learning , Reinforcement Learning and [computer game AI][3]( Go, Hex, 2048, Chess, Chinese Chess, Mahjong etc. ).   
 If you have any question, please feel free to contact me, thank you!   
 
 
