@@ -1,34 +1,53 @@
-safe: true
-permalink: /posts/:title.html
-exclude:
-  - README.md
+# Site settings
+title: BIGBALLON
+description:
+  en: "This is Wei Li's personal website, the style of this website is borrowed from Hexiang(Frank) Hu's)."
+  cn: "这是李韡的个人主页，用于分享他的个人经历，项目，学术论文，技术相关/不相关的博客。"
+keywords:
+  en: "Wei Li,BIGBALLON,Posts,Artificial Intelligence,Deep Learning,Reinforcement Learning"
+  cn: "李韡,博客,人工智能,深度学习,强化学习"
+background: /images/background/background-cube.jpg
+deep_background: /images/background/background-deepcube-2.jpg
 
+baseurl: ""
+# the subpath of your site, e.g. /blog/
+url: "https://bigballon.github.io"
+# the base hostname & protocol for your sit
+
+# Paginationœ
+paginate: 6
+paginate_path: "/posts/page/:num/"
+
+# Build settings
 markdown: kramdown
+
+# permalink setting
+permalink: pretty
+# highlighter: rouge
 highlighter: rouge
 
-name: "Blog · BIGBALLON"
-host: "bigballon.github.io"
-desc: "天下事有难易乎，为之，则难者亦易矣，不为，则易者亦难矣。"
+# Social media link for the site
+social:
+  twitter:    
+  github:     bigballon
+  facebook:   fm.bigballon
+  linkedin:   
+  rss:        /feed.xml
 
-custom:
-    category:
-        default: Default Category
-        another: Another Category
-    categories:
-      - name:  default
-        title: Default Category
+# google_analytics_token: "UA-60071442-1"
+# google_tags_token: "GTM-K5ZTMW"
 
-      - name:  another
-        title: Another Category
 
-    scrollingLoadCount: 0                          # 滚屏自动加载文章数量，“0”为关闭
+# customized document resources
+collections:
+  projects:
+    output: true
 
-meta:
-    author:
-        name: WEI LEE
-        email: fm.bigballon@gmail.com
-        gcse: 009210981518058229918:scofrvzuy-g   # Google自定义搜索标识ID
-        github: bigballon                 # GitHub账号
-        gravatar: 61192553bd4d0a057070cae2654c07c1  # Gravatar头像标识
-    gapi: http://www.google.com/jsapi               # Google API地址
-    gravatar: http://s.gravatar.com/avatar/        # Gravatar头像服务器地址
+scss:
+  sass_dir: _scss
+  style: :compressed
+
+gems: [jekyll-paginate]
+
+plugins_dir:
+  ['jekyll-paginate', 'jekyll/scholar', 'jekyll-sitemap']

@@ -1,0 +1,31 @@
+- date:  "2017 Fall "
+  title: "Teaching Assistant"
+  desc:  "<a href='http://csci-599.github.io'>CSCI-599 Deep Learning@USC</a>"
+  host:
+    name: "<a href='http://www-bcf.usc.edu/~limjj/'>Prof. Joseph Lim</a>"
+    role: "Instructor"
+  brief: false
+- date:  "2017 - "
+  title: "PhD student @ USC"
+  desc:  "Large Scale Machine Learning, Vision and Language"
+  host:
+    name: "<a href='http://www-bcf.usc.edu/~feisha/'>Prof. Fei Sha</a>"
+    role: "Supervisor"
+  brief: true
+- date:  "Summer 2017"
+  title: "Applied Scientist Intern @ AWS DL"
+  desc:  "Large Scale Machine Learning on Video"
+  host:  false
+  brief: true
+- date:  "2016 - 2017"
+  title: "Undergraduate student @ SFU"
+  desc:  "Deep Learning, Vision"
+  host:
+    name: "<a href='http://www-bcf.usc.edu/~feisha/'>Prof. Fei Sha</a>"
+    role: "Supervisor"
+  brief: true
+- date:  "2012 Sep. - 2016 Jul."
+  title: "Research Intern @ Megvii Inc.(Face++)"
+  desc:  "B.Sc. in Computing Science (with special concentration on Artificial Intelligence and System)"
+  host:  false
+  brief: true
