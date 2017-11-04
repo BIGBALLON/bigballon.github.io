@@ -6,7 +6,7 @@ deep_pic:   /images/self-portrait/deep-me.jpg
 normal:
   date:     "Sept. 2016"
   title:    ""
-  content:  "<strong>Wei Li</strong> is a Computer Science M.S. student in  Institute of Computer Science and Engineering  at <strong>National Chiao Tung University(NCTU)</strong>, advised by <a href='http://aigames.nctu.edu.tw/~icwu/'>Prof. I-Chen Wu</a>. He is a member of Computer Games and Intelligence<a href='http://www.aigames.nctu.edu.tw/'>(CGI)</a> Lab . His research interests lie in the field of <strong>Deep Learning</strong>, <strong>(Deep) Reinforcement Learning</strong> and <strong>Computer Games AI</strong>. Now, His current research is about how to combine Deep Learning and heuristics in Board Game AI(Chess, Chinese Chess, etc.) and using Deep Reinforcement Learning to play RTS Games or MOBA Games(StarCraft, Dota2, etc.)."
+  content:  "<strong>Wei Li</strong> is a Computer Science M.S. student in  Institute of Computer Science and Engineering  at <strong>National Chiao Tung University(NCTU)</strong>, advised by <a href='http://aigames.nctu.edu.tw/~icwu/'>Prof. I-Chen Wu</a>. He is a member of Computer Games and Intelligence<a href='http://www.aigames.nctu.edu.tw/'>(CGI)</a> Lab . His research interests lie in the field of <strong>Deep Learning</strong>, <strong>(Deep) Reinforcement Learning</strong> and <strong>Computer Games AI</strong>. Now, His current research is about how to combine Deep Learning and heuristics in Board Game AI(Gomoku, Chess, Chinese Chess, etc.) and using Deep Reinforcement Learning to play RTS Games or MOBA Games(StarCraft, Dota2, etc.)."
 short:
   date:
   title:  "Just for fun."

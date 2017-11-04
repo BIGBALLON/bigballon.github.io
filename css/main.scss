@@ -4,11 +4,11 @@
 @charset "utf-8";
 
 // Our variables
-$base-font-family:  'Roboto', Helvetica, Arial, sans-serif;
+$base-font-family:  Arial, Helvetica, sans-serif, "Hiragino Sans GB", "WenQuanYi Zen Hei", Microsoft Yahei,  '微软雅黑';
 $base-font-size:    16px;
-$small-font-size:   $base-font-size * 0.875;
-$tiny-font-size:    $small-font-size * 0.875;
-$base-line-height:  1.5;
+$small-font-size:   $base-font-size * 0.85;
+$tiny-font-size:    $small-font-size * 0.85;
+$base-line-height:  1.6;
 
 $spacing-unit:      30px;
 
@@ -43,7 +43,7 @@ $brand-color:       #2a7ae2;
 $brand-color-light: lighten($brand-color, 40%);
 $brand-color-dark:  darken($brand-color, 25%);
 
-$boya-color:        #35DACA;
+$boya-color:        #46251F;
 $linkedin-color:    #0077B5;
 $twitter-color:     #4099ff;
 $facebook-color:    #3B5998;
@@ -59,7 +59,7 @@ $secondary-color-light:     $brand-color-light;
 $secondary-color-dark:      $brand-color-dark;
 
 // Width of the content area
-$content-width:     1024px;
+$content-width:     63rem;
 
 $on-mobile:         400px;
 $on-palm:           600px;

@@ -8,20 +8,10 @@ title: Posts
   <h1 class="heading">Posts</h1>
   <ul class="post-list">
   {% for post in paginator.posts %}
-    <li class="post-item">
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
       <h2>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h2>
-      <div class="content preview">
-        {% if post.content contains '<!--more-->' %}
-          {{ post.content | split:'<!--more-->' | first }}
-        {% else %}
-          {{ post.content }}
-        {% endif %}
-      </div>
-    </li>
   {% endfor %}
   </ul>
 

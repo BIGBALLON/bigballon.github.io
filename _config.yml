@@ -15,7 +15,7 @@ url: "https://bigballon.github.io"
 # the base hostname & protocol for your sit
 
 # Paginationœ
-paginate: 6
+paginate: 10
 paginate_path: "/posts/page/:num/"
 
 # Build settings
@@ -47,7 +47,7 @@ scss:
   sass_dir: _scss
   style: :compressed
 
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 plugins_dir:
   ['jekyll-paginate', 'jekyll/scholar', 'jekyll-sitemap']
