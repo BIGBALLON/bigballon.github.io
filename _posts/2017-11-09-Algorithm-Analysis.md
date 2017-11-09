@@ -6,7 +6,21 @@ title: Algorithm Analysis
 
 ## Part 1: Foundations
 
-### 1.1 Asymptotic tight bound
+### 1.0 Master Theorem
+
+$T(n) = aT(\frac{n}{b})+\Theta(n^k log^{p} n) \quad a,b \geq 1 ,k \geq 0, p \text{ is real number}$.
+
+- $\textrm{if $a > b^k$, then $T(n) = \Theta(n^{log_{b}{a}})$}$
+- $\textrm{if $a = b^k$}$
+    - $\textrm{if $p > -1 $, then $T(n) = \Theta(n^{log_{b}{a}}\log^{p+1}n)$}$
+    - $\textrm{if $p = -1 $, then $T(n) = \Theta(n^{log_{b}{a}}\log \log n)$}$
+    - $\textrm{if $p < -1 $, then $T(n) = \Theta(n^{log_{b}{a}})$}$
+- $\textrm{if $a < b^k$}$
+    - $\textrm{if $p \geq 0 $, then $T(n) = \Theta(n^{k}log^{p}{n})$}$
+    - $\textrm{if $p < 0 $, then $T(n) = \Theta(n^k)$}$
+   
+
+### 1.1 Asymptotic Tight Bound
 
 $T(n)=2T(\frac{n}{2})+n \Rightarrow T(n)=\Theta(n\log n)$    
 $T(n)=2T(\frac{n}{2})+n\log n \Rightarrow T(n)=\Theta(n\log^2n)$   
@@ -25,16 +39,37 @@ $T(n)\leq T(\frac{n}{5})+ T(\frac{3n}{4})+cn \Rightarrow T(n)=\Theta(n)$
 $T(n)=\sqrt n T(\sqrt n)+n \Rightarrow T(n)=\Theta(n \log \log n)$      
 $T(n)=\sqrt n T(\sqrt n)+n\log n \Rightarrow T(n)=\Theta(n \log n)$      
 $T(n)=2T(\sqrt n)+\log n \Rightarrow T(n)=\Theta(\log n \log \log n)$     
-$T(n)=2T(\sqrt n)+1 \Rightarrow T(n)=\Theta(\log n)$     
+$T(n)=2T(\sqrt n)+1 \Rightarrow T(n)=\Theta(\log n)$   
 $T(n)=\log 1 + \log 2 + \log 3 + ...\log n \Rightarrow T(n)=\Theta(n \log n)$  
 $T(n)=\log 1 + \log 2 + \log 3 + ...\log n^2 \Rightarrow T(n)=\Theta(n^2 \log n)$    
 $T(n)=\frac{n}{1^2} +\frac{n}{2^2}+ \frac{n}{3^2}+ \frac{n}{n^2} \Rightarrow T(n)=\Theta(n)$    
-$T(n)=\frac{n}{n}+ \frac{n}{n+1}+ \frac{n}{n+2}+ \frac{n}{n+n} \Rightarrow T(n)=\Theta(n \log n)$    
+$T(n)=\frac{n}{n}+ \frac{n}{n+1}+ \frac{n}{n+2}+ \frac{n}{n+n} \Rightarrow T(n)=\Theta(n \log n)$  
 
+
+- Prove of $T(n)=2T(\sqrt n)+1  =\Theta(\log n)$  
+
+> Let $2^m = n$, so the recurrence becomes $T(2^m)=2T(2^{m/2})+1$       
+then, let $T(2^m) = g(m)$, so $g(m)=2T(\frac{m}{2})+1$,  
+now, apply the Master Theorem, $g(m)=m$, so $T(n)=\Theta(\log n)$
+
+
+- Prove of $T(n)=2T(\sqrt n)+\log n   =\Theta(\log n \log \log n)$  
+
+> Let $2^m = n$, so the recurrence becomes $T(2^m)=2T(2^{\frac{m}{2}})+m$       
+then, let $T(2^m) = g(m)$, so $g(m)=2T(\frac{m}{2})+m$,  
+now, apply the Master Theorem, $g(m)=m \log m$, so $T(n)=\Theta(\log n \log \log n)$
+
+- Prove of $T(n)=\sqrt n T(\sqrt n)+n=\Theta(n \log \log n)$    
+
+> Let $2^m = n, \sqrt{n}=2^{\frac{m}{2}}$, so the recurrence becomes $T(2^m)=2^{\frac{m}{2}}T(2^{\frac{m}{2}})+2^m$       
+dividing by $2^m$ , we get $\frac{T(2^m)}{2^m} = \frac{T(2^{\frac{m}{2}})}{2^\frac{m}{2}} +1$.
+let $y(m)=\frac{T(2^m)}{2^m}$, then $y(m)=y(\frac{m}{2})+1$
+now, we apply the Master Theorem, $y(m)= \log m$, $T(2^m)=2^m \log m$,so $T(n)=n\log \log n$.
+Finally: $T(n)=\Theta(n \log \log n)$
 
 ### 1.2 True or false
 
-Let f(n) and g(n) be asymptotically positive functions.
+Let $f(n)$ and $g(n)$ be asymptotically positive functions.
 
 - $f(n) = \mathcal{O}(g(n))$ implies $\log(f(n)) = \mathcal{O}(\log(g(n)))$, where $\lg(g(n)) \geq 1 $and$ f(n) \geq 1 $ for all sufficiently large $n$. 
     - **True.**
@@ -106,7 +141,7 @@ $$\begin{align*}
     - strassen:  $T(n) = 7T(\frac{n}{2})+18(\frac{n}{2}\times \frac{n}{2})=\Theta(n^{lg7})$
 - diveide the matrices into $\frac{n}{2} \times \frac{n}{2}$ submatrices. Estimate the time complexity of this method.
     - $T(n) = mT(\frac{n}{2})+a(\frac{n}{2}\times \frac{n}{2})$
-    - $$
+$$
 T(n)=\left\{\begin{matrix}
 & \mathcal{O}(n^{\log_2{m}}) &\text{if} \log_2{m} > 2 \\
 & \mathcal{O}(n^2 \log n) &\text{if} \log_2{m} = 2\\
@@ -115,7 +150,7 @@ T(n)=\left\{\begin{matrix}
 $$
 - diveide the matrices into $\frac{n}{3} \times \frac{n}{3}$ submatrices. Estimate the time complexity of this method.
     - $T(n) = mT(\frac{n}{3})+a(\frac{n}{3}\times \frac{n}{3})$
-    - $$T(n)=\left\{\begin{matrix}
+$$T(n)=\left\{\begin{matrix}
 & \mathcal{O}(n^{\log_3{m}}) &\text{if} \log_3{m} > 2 \\
 & \mathcal{O}(n^2 \log n) &\text{if} \log_3{m} = 2\\
 & \mathcal{O}(n^2) &\text{if} \log_3{m} < 2
@@ -379,18 +414,25 @@ time for soring and O(n) is the time for the linear scan.
 Consider the dynamic table problem. Doubling the table size when it is full as before.But instead of contracting the table by halving its size when its load factor drops below 1/4, we contract it by multiplying its size by 2/3 when its load factor drops below 1/3.
 
 - Write a tight potential function without any explanation.
-    - $ \Phi(T)= 2 \vert num[T]-size[T] \vert $
+    - $ \Phi(T)=  \vert 2 num[T]-size[T] \vert $
 - Give the constant that the amortized cost of each operation is bounded above by.
     - **The amortized cost is at most 3**
 - Give the amortized cost for the following four cases.
     - The load factor is full 1, and the next operation is insertion. **3**
-    - The load factor is 1/3, and the next operation is insertion. **0**
+    - The load factor is 1/3, and the next operation is insertion. **-1**
+        - we have that $size_{i-1}=size_{i}$ and $num_{i-1}+1=num_{i}$  
+            $$
+\begin{align*}\hat{c_{i}}&=c_i+\Phi_{i}-\Phi_{i-1} \\
+&=1+\left | 2num_i-size_i \right |-\left | 2num_{i-1}-size_{i-1}\right | \\
+&=1+2num_i-2num_{i-1} \\
+&=1 + 2num_i-2num_i-2 \\
+&=-1
+\end{align*}
+$$
     - The load factor is 1/3, and the next operation is deletion. **2**
-    - The load factor is structly between 1/3 and 1/2, and the next operation is deletion. **3**
-- since we resize when the load factor drops below $1/3$,we have that 
-    - $size_{i-1}/3=num_{i-1}=num_i+1$
-
-cal $\hat{c_{i}}$ : $$
+        - since we resize when the load factor drops below $1/3$,we have that 
+            - $size_{i-1}/3=num_{i-1}=num_i+1$
+$$
 \begin{align*}\hat{c_{i}}&=c_i+\Phi_{i}-\Phi_{i-1} \\
 &\leq num_i+1+\left | 2num_i-size_i \right |-\left | 2num_{i-1}-size_{i-1}\right | \\
 &=num_i+1+(\frac{2}{3}size_{i-1}-2num_i)-(size_{i-1}-2num_{i}-2) \\
@@ -398,4 +440,6 @@ cal $\hat{c_{i}}$ : $$
 &=2
 \end{align*}
 $$
+    - The load factor is structly between 1/3 and 1/2, and the next operation is deletion. **3**
+
 
