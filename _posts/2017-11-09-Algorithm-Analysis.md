@@ -10,26 +10,26 @@ title: Algorithm Analysis
 
 $T(n)=2T(\frac{n}{2})+n \Rightarrow T(n)=\Theta(n\log n)$    
 $T(n)=2T(\frac{n}{2})+n\log n \Rightarrow T(n)=\Theta(n\log^2n)$   
-$T(n)=2T(\frac{n}{2})+\frac{n}{\log n} \Rightarrow T(n)=\Theta(n\log \log n)$
+$T(n)=2T(\frac{n}{2})+\frac{n}{\log n} \Rightarrow T(n)=\Theta(n\log \log n)$  
 $T(n)=2T(\frac{n}{2})+\frac{n}{\log^2 n} \Rightarrow T(n)=\Theta(n)$  
 $T(n)=4T(\frac{n}{2})+\frac{n^2}{\log n} \Rightarrow T(n)=\Theta(n^2 \log \log n)$    
 $T(n)=8T(\frac{n}{2})+\frac{n^3}{\log n} \Rightarrow T(n)=\Theta(n^3 \log \log n)$  
-$T(n)=aT(\frac{n}{b})+n^{\log{b}^{a}}\log^{k} n \Rightarrow T(n)=\Theta(n^{\log{b}^{a}} \log^{k+1}n)$
-$T(n)=T(\frac{n}{2})+1 \Rightarrow T(n)=\Theta(\log n)$
-$T(n)=T(\frac{n}{2})+\log n \Rightarrow T(n)=\Theta(\log^2 n)$  
-$T(n)=T(\sqrt n )+1 \Rightarrow T(n)=\Theta(\log\log n)$
-$T(n)=T(n-1)+n \Rightarrow T(n)=\Theta(n^2)$  
-$T(n)=T(n-1)+\frac{1}{n} \Rightarrow T(n)=\Theta(\log n)$  
-$T(n)=T(n-1)+\log n \Rightarrow T(n)=\Theta(n \log n)$ 
-$T(n)\leq T(\frac{n}{5})+ T(\frac{3n}{4})+cn \Rightarrow T(n)=\Theta(n)$    
-$T(n)=\sqrt n T(\sqrt n)+n \Rightarrow T(n)=\Theta(n \log \log n)$     
-$T(n)=\sqrt n T(\sqrt n)+n\log n \Rightarrow T(n)=\Theta(n \log n)$     
-$T(n)=2T(\sqrt n)+\log n \Rightarrow T(n)=\Theta(\log n \log \log n)$    
-$T(n)=2T(\sqrt n)+1 \Rightarrow T(n)=\Theta(\log n)$    
-$T(n)=\log 1 + \log 2 + \log 3 + ...\log n \Rightarrow T(n)=\Theta(n \log n)$
-$T(n)=\log 1 + \log 2 + \log 3 + ...\log n^2 \Rightarrow T(n)=\Theta(n^2 \log n)$  
-$T(n)=\frac{n}{1^2} +\frac{n}{2^2}+ \frac{n}{3^2}+ \frac{n}{n^2} \Rightarrow T(n)=\Theta(n)$  
-$T(n)=\frac{n}{n}+ \frac{n}{n+1}+ \frac{n}{n+2}+ \frac{n}{n+n} \Rightarrow T(n)=\Theta(n \log n)$  
+$T(n)=aT(\frac{n}{b})+n^{\log{b}^{a}}\log^{k} n \Rightarrow T(n)=\Theta(n^{\log{b}^{a}} \log^{k+1}n)$  
+$T(n)=T(\frac{n}{2})+1 \Rightarrow T(n)=\Theta(\log n)$  
+$T(n)=T(\frac{n}{2})+\log n \Rightarrow T(n)=\Theta(\log^2 n)$    
+$T(n)=T(\sqrt n )+1 \Rightarrow T(n)=\Theta(\log\log n)$  
+$T(n)=T(n-1)+n \Rightarrow T(n)=\Theta(n^2)$    
+$T(n)=T(n-1)+\frac{1}{n} \Rightarrow T(n)=\Theta(\log n)$    
+$T(n)=T(n-1)+\log n \Rightarrow T(n)=\Theta(n \log n)$   
+$T(n)\leq T(\frac{n}{5})+ T(\frac{3n}{4})+cn \Rightarrow T(n)=\Theta(n)$      
+$T(n)=\sqrt n T(\sqrt n)+n \Rightarrow T(n)=\Theta(n \log \log n)$      
+$T(n)=\sqrt n T(\sqrt n)+n\log n \Rightarrow T(n)=\Theta(n \log n)$      
+$T(n)=2T(\sqrt n)+\log n \Rightarrow T(n)=\Theta(\log n \log \log n)$     
+$T(n)=2T(\sqrt n)+1 \Rightarrow T(n)=\Theta(\log n)$     
+$T(n)=\log 1 + \log 2 + \log 3 + ...\log n \Rightarrow T(n)=\Theta(n \log n)$  
+$T(n)=\log 1 + \log 2 + \log 3 + ...\log n^2 \Rightarrow T(n)=\Theta(n^2 \log n)$    
+$T(n)=\frac{n}{1^2} +\frac{n}{2^2}+ \frac{n}{3^2}+ \frac{n}{n^2} \Rightarrow T(n)=\Theta(n)$    
+$T(n)=\frac{n}{n}+ \frac{n}{n+1}+ \frac{n}{n+2}+ \frac{n}{n+n} \Rightarrow T(n)=\Theta(n \log n)$    
 
 
 ### 1.2 True or false
