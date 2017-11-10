@@ -67,15 +67,26 @@ let $y(m)=\frac{T(2^m)}{2^m}$, then $y(m)=y(\frac{m}{2})+1$
 now, we apply the Master Theorem, $y(m)= \log m$, $T(2^m)=2^m \log m$,so $T(n)=n\log \log n$.
 Finally: $T(n)=\Theta(n \log \log n)$
 
+- Prove of $T(n)=\frac{n}{n}+ \frac{n}{n+1}+ \frac{n}{n+2}+ \frac{n}{n+n}=\Theta(n \log n)$  
+
+> $T(n)=\frac{n}{n}+ \frac{n}{n+1}+ \frac{n}{n+2}+ \frac{n}{n+n}$  
+$=n(\frac{1}{n}+ \frac{1}{n+1}+ \frac{1}{n+2}+ \frac{1}{n+n})$  
+$=n((\frac{1}{1}+ \frac{1}{2}+ ... + \frac{1}{n^2})- (\frac{1}{1}+ \frac{1}{2}+ ... + \frac{1}{n})+\frac{1}{n})$  
+$=n(\int_{1}^{n^2}\frac{1}{x}-\int_{1}^{n}\frac{1}{x}+\frac{1}{n})$  
+$=n(2\ln n-\ln 1 - \ln n + \ln 1+\frac{1}{n})$  
+$=n(\ln n+\frac{1}{n})$  
+$=n\ln n+1$  
+$=\Theta(n \log n)$  
+
 ### 1.2 True or false
 
 Let $f(n)$ and $g(n)$ be asymptotically positive functions.
 
 - $f(n) = \mathcal{O}(g(n))$ implies $\log(f(n)) = \mathcal{O}(\log(g(n)))$, where $\lg(g(n)) \geq 1 $and$ f(n) \geq 1 $ for all sufficiently large $n$. 
     - **True.**
-- $\log(f(n)) = \mathcal{O}(\log(g(n)))$ implies $\log(f(n)) = \mathcal{O}(\log(g(n)))$, where $\lg(g(n)) \geq 1 $and$ f(n) \geq 1 $ for all sufficiently large $n$. 
+- $\log(f(n)) = \mathcal{O}(\log(g(n)))$ implies $f(n)= \mathcal{O}(g(n))$, where $\lg(g(n)) \geq 1 $and$ f(n) \geq 1 $ for all sufficiently large $n$. 
     - **False.** $\log(n^2) = \mathcal{O}(\log(n))$,but $ n^2 \ne \mathcal{O}(n)$
-- $\log(f(n)) = \mathcal{o}(\log(g(n)))$ implies $\log(f(n)) = \mathcal{o}(\log(g(n)))$, where $\log(g(n)) \geq 1 $and$ f(n) \geq 1 $ for all sufficiently large $n$. 
+- $\log(f(n)) = \mathcal{o}(\log(g(n)))$ implies $f(n) = \mathcal{o}(g(n))$, where $\log(g(n)) \geq 1 $and$ f(n) \geq 1 $ for all sufficiently large $n$. 
     - **True.**
 - $f(n)=\mathcal{O}(g(n))$ implies $2^{f(n)}=\mathcal{O}(2^{g(n)})$
     - **False.** we have $2n \in \mathcal{O}(n)$, but $2^{2n} \notin \mathcal{O}(2^n)$ 
@@ -128,7 +139,7 @@ $$\begin{align*}
 \end{align*}$$
 
 
-- 思考：$2^{\sqrt{2\lg n}} $  和 $\left \lceil  \log \log n \right \rceil !$ 谁大一些？ 它们是polynomial bounded function 吗?
+- 思考：$2^{\sqrt{2\lg n}} $  和 $\left \lceil  \log \log n \right \rceil !$ 谁大一些？ 它们是 Polynomial bounded function 吗?
 
 
 ### 1.4 Strassen's matrix multiplication problem
