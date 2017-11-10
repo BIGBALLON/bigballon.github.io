@@ -222,7 +222,7 @@ f[x,i]=
 &0 &no
 \end{aligned}
 \right.\\
-\textrm{and $x = 0,1,2,...t$. \quad $i = 0,1,2,...n$}
+\textrm{$x = 0,1,2,...t$.  and  $i = 0,1,2,...n$}
 $$
 
 - **Recursive relation**
