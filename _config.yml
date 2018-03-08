@@ -1,5 +1,6 @@
 # Site settings
 title: BIGBALLON
+
 description:
   en: "This is Wei Li's personal website, the style of this website is borrowed from Hexiang(Frank) Hu's."
   cn: "这是李韡的个人主页，用于分享他的个人经历，项目，学术论文，技术相关/不相关的博客。"
@@ -22,9 +23,13 @@ paginate_path: "/posts/page/:num/"
 markdown: kramdown
 
 # permalink setting
-permalink: pretty
+# permalink: pretty
+
+permalink: /posts/:title.html
+
 # highlighter: rouge
 highlighter: rouge
+
 
 # Social media link for the site
 social:
