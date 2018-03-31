@@ -1,31 +1,45 @@
-- date:  "2017 Fall "
-  title: "Teaching Assistant"
-  desc:  "<a href='http://csci-599.github.io'>CSCI-599 Deep Learning@USC</a>"
+- date:  "2018 Mar. - Now"
+  title: "A Survey of Learning Rate Schedule"
+  desc:  "In process"
   host:
-    name: "<a href='http://www-bcf.usc.edu/~limjj/'>Prof. Joseph Lim</a>"
-    role: "Instructor"
+    name: "<a href='http://aigames.nctu.edu.tw/~icwu/'>Prof. I-Chen Wu</a>"
+    role: "Supervisor"
   brief: false
-- date:  "2017 - "
-  title: "PhD student @ USC"
-  desc:  "Large Scale Machine Learning, Vision and Language"
+- date:  "2018 Feb. - Now"
+  title: "Alpha Zero Based Gomoku AI"
+  desc:  "Combine AZ methods and traditional heuristic methods</br>In process"
   host:
-    name: "<a href='http://www-bcf.usc.edu/~feisha/'>Prof. Fei Sha</a>"
+    name: "<a href='http://aigames.nctu.edu.tw/~icwu/'>Prof. I-Chen Wu</a>"
     role: "Supervisor"
   brief: true
-- date:  "Summer 2017"
-  title: "Applied Scientist Intern @ AWS DL"
-  desc:  "Large Scale Machine Learning on Video"
-  host:  false
-  brief: true
-- date:  "2016 - 2017"
-  title: "Undergraduate student @ SFU"
-  desc:  "Deep Learning, Vision"
+- date:  "2017 Seq. - 2018 Feb."
+  title: "Teaching Assistant @ MediaTek Inc"
+  desc:  "2017 Fall - <a href='https://github.com/2017-fall-DL-training-program'>Deep Learning Training Program</a>"
   host:
-    name: "<a href='http://www-bcf.usc.edu/~feisha/'>Prof. Fei Sha</a>"
+    name: "<a href='http://aigames.nctu.edu.tw/~icwu/'>Prof. I-Chen Wu</a>"
+    role: "Instructor"
+  brief: true
+- date:  "2017 Jun. - 2017 Sep."
+  title: "Research Volunteer @ Project-Theta"
+  desc:  "Defect Inspection & Automated Optical Inspection"
+  brief: true
+  host:
+    name: "<a href='https://www.eecs.harvard.edu/htk/'>Prof. H.T. Kung</a>, Academia Sinica"
+    role: "Instructor"
+- date:  "2016 Oct. - 2017 July."
+  title: "Development of Chinese Chess AI"
+  desc:  "CGI Lab Chinese Chess Group.</br>Won the <b>2st</b> place in TAAI 2016 Tournaments</br>Won the <b>1st</b> place in ICGA 2017 Tournaments"
+  brief: true
+  host:  false
+- date:  "2016 Sep. - Now"
+  title: "Graduate student @ <a href='http://www.nctu.edu.tw/'>NCTU</a>"
+  desc:  "Computer Games and Intelligence<a href='http://www.aigames.nctu.edu.tw/'>(CGI)</a> Lab</br>Game AI, Deep Learning, Reinforcement Learning"
+  host:
+    name: "<a href='http://aigames.nctu.edu.tw/~icwu/'>Prof. I-Chen Wu</a>"
     role: "Supervisor"
   brief: true
 - date:  "2012 Sep. - 2016 Jul."
-  title: "Research Intern @ Megvii Inc.(Face++)"
-  desc:  "B.Sc. in Computing Science (with special concentration on Artificial Intelligence and System)"
+  title: "Undergraduate student @ CHD"
+  desc:  "B.Sc. in Software Engineering</br>President of the <a href='http://chdacm.club/'>ACM-ICPC</a> Association"
   host:  false
-  brief: true
+  brief: false
