@@ -21,7 +21,7 @@
   brief: true
 - date:  "2017 Jun. - 2017 Sep."
   title: "Research Volunteer @ Project-Theta"
-  desc:  "Defect Inspection & Automated Optical Inspection"
+  desc:  "Defect Inspection & Automated Optical Inspection</br>An open source repo: <a href='https://github.com/BIGBALLON/cifar-10-cnn'>cifar-10-cnn</a>"
   brief: true
   host:
     name: "<a href='https://www.eecs.harvard.edu/htk/'>Prof. H.T. Kung</a>, Academia Sinica"
