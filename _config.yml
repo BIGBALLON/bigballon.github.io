@@ -42,6 +42,7 @@ social:
 # google_analytics_token: "UA-60071442-1"
 # google_tags_token: "GTM-K5ZTMW"
 
+disqus: BIGBALLON
 
 # customized document resources
 collections:
