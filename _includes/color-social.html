@@ -22,8 +22,16 @@
 </a>
 {% endif %}
 
+{% if site.social.wechat %}
+<a href="{{ site.baseurl }}/images/icon/wechat.jpg">
+  <img src="/images/icon/color-wechat.png" class="social-icon">
+</a>
+{% endif %}
+
 {% if site.social.rss %}
 <a href="{{ site.social.rss | prepend: site.baseurl }}">
   <img src="/images/icon/color-rss.png" class="social-icon">
 </a>
 {% endif %}
+
+

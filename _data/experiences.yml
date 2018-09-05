@@ -11,7 +11,7 @@
   host:
     name: "<a href='http://aigames.nctu.edu.tw/~icwu/'>Prof. I-Chen Wu</a>"
     role: "Supervisor"
-  brief: true
+  brief: false
 - date:  "2017 Seq. - 2018 Feb."
   title: "Teaching Assistant @ MediaTek Inc"
   desc:  "2017 Fall - <a href='https://github.com/2017-fall-DL-training-program'>Deep Learning Training Program</a>"
@@ -29,7 +29,7 @@
 - date:  "2016 Oct. - 2017 July."
   title: "Development of Chinese Chess AI"
   desc:  "CGI Lab Chinese Chess Group.</br>Won the <b>2st</b> place in TAAI 2016 Tournaments</br>Won the <b>1st</b> place in ICGA 2017 Tournaments"
-  brief: true
+  brief: false
   host:  false
 - date:  "2016 Sep. - Now"
   title: "Graduate student @ <a href='http://www.nctu.edu.tw/'>NCTU</a>"

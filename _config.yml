@@ -33,10 +33,9 @@ highlighter: rouge
 
 # Social media link for the site
 social:
-  twitter:    
   github:     bigballon
   facebook:   fm.bigballon
-  linkedin:   
+  wechat:     bigballon
   rss:        /feed.xml
 
 # google_analytics_token: "UA-60071442-1"

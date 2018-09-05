@@ -78,6 +78,9 @@
 .github span {
     background-color: $github-color;
 }
+.wechat span {
+    background-color: $wechat-color;
+}
 /* Icons */
 .icon-button i {
     background:         none;
@@ -106,10 +109,14 @@
 .icon-button .icon-linkedin {
     color: $linkedin-color;
 }
+.icon-button .icon-wechat {
+    color: $wechat-color;
+}
 
 .icon-button:hover .icon-twitter,
 .icon-button:hover .icon-facebook,
 .icon-button:hover .icon-github,
+.icon-button:hover .icon-wechat,
 .icon-button:hover .icon-linkedin {
     color: white;
 }
