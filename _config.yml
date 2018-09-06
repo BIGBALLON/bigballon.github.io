@@ -36,7 +36,10 @@ social:
   github:     bigballon
   facebook:   fm.bigballon
   wechat:     bigballon
+  bilibili:   88955459
   rss:        /feed.xml
+  zhihu:      BIGBALLON
+  linkedin:   
 
 # google_analytics_token: "UA-60071442-1"
 # google_tags_token: "GTM-K5ZTMW"
@@ -52,7 +55,7 @@ scss:
   sass_dir: _scss
   style: :compressed
 
-plugins: [jekyll-paginate]
+gems: [jekyll-paginate]
 
 plugins_dir:
   ['jekyll-paginate', 'jekyll/scholar', 'jekyll-sitemap']

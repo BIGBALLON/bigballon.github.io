@@ -1,6 +1,7 @@
+</br>
 {% if site.social.github %}
 <a href="{{ site.social.github | prepend: 'https://github.com/' }}" class="icon-button github">
-  <i class="fa fa-github icon-github"></i>
+  <i class="fab fa-github icon-github"></i>
   <span></span>
 </a>
 {% endif %}
@@ -8,15 +9,21 @@
 
 {% if site.social.facebook %}
 <a href="{{ site.social.facebook | prepend: 'https://facebook.com/'}}" class="icon-button facebook">
-  <i class="fa fa-facebook icon-facebook"></i>
+  <i class="fab fa-facebook icon-facebook"></i>
   <span></span>
 </a>
 {% endif %}
 
-
 {% if site.social.wechat %}
 <a href="{{ site.baseurl }}/images/icon/wechat.jpg"  class="icon-button wechat">
-  <i class="fa fa-wechat icon-wechat"></i>
+  <i class="fab fa-weixin icon-wechat"></i>
+  <span></span>
+</a>
+{% endif %}
+
+{% if site.social.zhihu %}
+<a href="{{ site.social.zhihu | prepend: 'https://www.zhihu.com/people/'}}" class="icon-button zhihu">
+  <i class="fab fa-zhihu icon-zhihu"></i>
   <span></span>
 </a>
 {% endif %}
