@@ -4,15 +4,15 @@
 </a>
 {% endif %}
 
-{% if site.social.facebook %}
-<a href="{{ site.social.facebook | prepend: "https://facebook.com/"}}">
-  <img src="/images/icon/color-facebook.png" class="social-icon">
+{% if site.social.steam %}
+<a href="{{ site.social.steam | prepend: 'https://steamcommunity.com/id/'}}">
+  <img src="/images/icon/color-steam.png" class="social-icon">
 </a>
 {% endif %}
 
-{% if site.social.wechat %}
-<a href="{{ site.baseurl }}/images/icon/wechat.jpg">
-  <img src="/images/icon/color-wechat.png" class="social-icon">
+{% if site.social.facebook %}
+<a href="{{ site.social.facebook | prepend: "https://facebook.com/"}}">
+  <img src="/images/icon/color-facebook.png" class="social-icon">
 </a>
 {% endif %}
 
@@ -25,6 +25,12 @@
 {% if site.social.bilibili %}
 <a href="{{ site.social.bilibili | prepend: "https://space.bilibili.com/"}}">
   <img src="/images/icon/color-bilibili.png" class="social-icon">
+</a>
+{% endif %}
+
+{% if site.social.wechat %}
+<a href="{{ site.baseurl }}/images/icon/wechat.jpg">
+  <img src="/images/icon/color-wechat.png" class="social-icon">
 </a>
 {% endif %}
 

@@ -51,6 +51,7 @@ $github-color:      #000000;
 $wechat-color:      #32CD32;
 $bilibili-color:    #4dc3ff;
 $zhihu-color:       #1e83b6;
+$steam-color:       #000000;
 
 // Site color scheme[primary and secondary]
 $primary-color:             $red-color-dark;
@@ -62,9 +63,9 @@ $secondary-color-light:     $brand-color-light;
 $secondary-color-dark:      $brand-color-dark;
 
 // Width of the content area
-$content-width:     63rem;
+$content-width:     55rem;
 
-$on-mobile:         500px;
+$on-mobile:         800px;
 $on-palm:           600px;
 $on-laptop:         800px;
 

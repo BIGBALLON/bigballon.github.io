@@ -10,7 +10,7 @@
 
   <div class="trigger">
     <a class="page-link" href="{{ site.baseurl }}/">Home</a>
-
+    <a class="page-link" href="{{ site.baseurl }}/publications">Publications</a>
     {% for page in site.pages %}
       <!-- Button for Posts -->
       {% if page.title == 'Posts' %}
@@ -19,8 +19,6 @@
         <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
         {% endif %}
       {% endif %}
-
     {% endfor %}
-    <a class="page-link" href="{{ site.baseurl }}/publications">Publications</a>
   </div>
 </nav>
