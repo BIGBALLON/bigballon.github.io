@@ -22,14 +22,10 @@ paginate_path: "/posts/page/:num/"
 # Build settings
 markdown: kramdown
 
-# permalink setting
-# permalink: pretty
-
 permalink: /posts/:title.html
 
 # highlighter: rouge
 highlighter: rouge
-
 
 # Social media link for the site
 social:
@@ -37,12 +33,10 @@ social:
   facebook:   fm.bigballon
   wechat:     bigballon
   bilibili:   88955459
+  qq:         605718199
   rss:        /feed.xml
   zhihu:      BIGBALLON
   steam:      bigballon
-
-# google_analytics_token: "UA-60071442-1"
-# google_tags_token: "GTM-K5ZTMW"
 
 disqus: BIGBALLON
 
@@ -54,8 +48,3 @@ collections:
 scss:
   sass_dir: _scss
   style: :compressed
-
-gems: [jekyll-paginate]
-
-plugins_dir:
-  ['jekyll-paginate', 'jekyll/scholar', 'jekyll-sitemap']

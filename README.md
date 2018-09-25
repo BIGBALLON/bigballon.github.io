@@ -1,1 +1,1 @@
-Powered by [Jekyll]
+My personal blog, powered by Jekyll ! 
