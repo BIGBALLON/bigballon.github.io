@@ -10,7 +10,7 @@
   brief: true
 - date:  "2018 Feb. - 2019 Mar."
   title: "CZF: CGI Zero Framework"
-  desc:  "<b>Lightweight, Scalable</b> AGZ/AZ Training Framework</br>Easy to develop new games based on AGZ/AZ</br>Allowed to be extended to a more general framework</br><b>WahahNoGo</b> is the strongest NoGo Program, which</br>got the TAAI 2018 NoGo <b>Champion</b></br>got the ICGA 2019 NoGo <b>Champion</b><br>Proposed a new method called MPV-MCTS<br>Paper (<b>Multiple Policy Value Monte Carlo Tree Search</b>) was accepted to <b>IJCAI 2019</b><br>Material: [<a href='https://github.com/BIGBALLON/bigballon.github.io/files/3309768/thesis_a-software-framework-for-alphazero-like-applications.pdf'>slide</a>] [<a href='https://www.ijcai.org/Proceedings/2019/0653.pdf'>paper</a>]"
+  desc:  "<b>Lightweight, Scalable</b> AGZ/AZ Training Framework</br>Easy to develop new games based on AGZ/AZ</br>Allowed to be extended to a more general framework</br><b>WahahaNoGo</b> is the strongest NoGo Program, which</br>got the TAAI 2018 NoGo <b>Champion</b></br>got the ICGA 2019 NoGo <b>Champion</b><br>Proposed a new training method called <b>MPV-MCTS</b><br>Paper (<b>Multiple Policy Value Monte Carlo Tree Search</b>) was accepted to <b>IJCAI 2019</b><br>Material: [<a href='https://github.com/BIGBALLON/bigballon.github.io/files/3309768/thesis_a-software-framework-for-alphazero-like-applications.pdf'>slide</a>] [<a href='https://www.ijcai.org/Proceedings/2019/0653.pdf'>paper</a>]"
   host:
     name: "<a href='http://aigames.nctu.edu.tw/~icwu/'>Prof. I-Chen Wu</a>"
     role: "Supervisor"
