@@ -22,7 +22,7 @@
   brief: True
 - date:  "2018 Mar. - 2018 Jun."
   title: "A Survey of Learning Rate Schedule"
-  desc:  "Proposed a scheduling method on classification</br>Paper (<b>Stochastic Gradient Descent with Hyperbolic-Tangent Decay on Classification</b>) was accepted to IEEE <b>WACV 2019</b>"
+  desc:  "Proposed a scheduling method on classification</br>Paper (<b>Stochastic Gradient Descent with Hyperbolic-Tangent Decay on Classification</b>) was accepted to IEEE <b>WACV 2019</b></br>Material: [<a href='https://github.com/BIGBALLON/HTD'>code</a>] [<a href='https://arxiv.org/abs/1806.01593'>paper</a>]"
   host:
     name: "<a href='http://aigames.nctu.edu.tw/~icwu/'>Prof. I-Chen Wu</a>"
     role: "Supervisor"
