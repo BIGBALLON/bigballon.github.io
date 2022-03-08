@@ -1,3 +1,19 @@
+- date:  "2022 Mar."
+  title: "2 paper accepted to CVPR'22"
+  desc:  "<small><small>Semi-Supervised Semantic Segmentation Using Unreliable Pseudo Labels
+  <br>UniVIP: A Unified Framework for Self-Supervised Visual Pre-training</small></small> "
+  host:  false
+  brief: true
+- date:  "2021 Dec."
+  title: "Raised another cat"
+  desc:  "We got a second cat. (<a href='https://bigballon.github.io/Meow/img/321.jpeg'>321</a>)"
+  host:  false
+  brief: true
+- date:  "2021 Seq."
+  title: "1 paper accepted to NeurIPS'21"
+  desc:  "<small><small><a href='https://arxiv.org/abs/2106.05656'>MST</a>: Masked Self-Supervised Transformer for Visual Representation</small></small>"
+  host:  false
+  brief: true
 - date:  "2020 May."
   title: "Raised a cat"
   desc:  "A Chi's (<a href='https://bigballon.github.io/Meow/img/iceice.jpeg'>ice cream</a>) broke into my life"
