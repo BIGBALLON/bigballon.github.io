@@ -1,7 +1,6 @@
 - date:  "2022 Mar."
   title: "2 paper accepted to CVPR'22"
-  desc:  "<small><small>Semi-Supervised Semantic Segmentation Using Unreliable Pseudo Labels
-  <br>UniVIP: A Unified Framework for Self-Supervised Visual Pre-training</small></small> "
+  desc:  "<small><small><a href='https://openaccess.thecvf.com/content/CVPR2022/html/Wang_Semi-Supervised_Semantic_Segmentation_Using_Unreliable_Pseudo-Labels_CVPR_2022_paper.html'>U2PL</a>: Semi-Supervised Semantic Segmentation Using Unreliable Pseudo Labels<br><a href='https://openaccess.thecvf.com/content/CVPR2022/html/Li_UniVIP_A_Unified_Framework_for_Self-Supervised_Visual_Pre-Training_CVPR_2022_paper.html'>UniVIP</a>: A Unified Framework for Self-Supervised Visual Pre-training</small></small> "
   host:  false
   brief: true
 - date:  "2021 Dec."
@@ -59,7 +58,7 @@
     role: "Instructor"
 - date:  "2016 Oct. - 2017 July."
   title: "Development of Chinese Chess AI"
-  desc:  "CGI Lab Chinese Chess Group</br>Won the <b>2st</b> place in TAAI 2016 Tournaments</br>Won the <b>1st</b> place in ICGA 2017 Tournaments"
+  desc:  "CGI Lab Chinese Chess Group</br>Won the <b>2nd</b> place in TAAI 2016 Tournaments</br>Won the <b>1st</b> place in ICGA 2017 Tournaments"
   brief: true
   host:  false
 - date:  "2016 Sep. - 2019 Jun."
