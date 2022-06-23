@@ -1,6 +1,7 @@
 - date:  "2022 Mar."
   title: "2 paper accepted to CVPR'22"
-  desc:  "<small><small><a href='https://openaccess.thecvf.com/content/CVPR2022/html/Wang_Semi-Supervised_Semantic_Segmentation_Using_Unreliable_Pseudo-Labels_CVPR_2022_paper.html'>U2PL</a>: Semi-Supervised Semantic Segmentation Using Unreliable Pseudo Labels<br><a href='https://openaccess.thecvf.com/content/CVPR2022/html/Li_UniVIP_A_Unified_Framework_for_Self-Supervised_Visual_Pre-Training_CVPR_2022_paper.html'>UniVIP</a>: A Unified Framework for Self-Supervised Visual Pre-training</small></small> "
+  desc:  "<small><small><a href='https://haochen-wang409.github.io/U2PL/'>U2PL</a>: Semi-Supervised Semantic Segmentation Using Unreliable Pseudo Labels<br>
+  <a href='https://openaccess.thecvf.com/content/CVPR2022/html/Li_UniVIP_A_Unified_Framework_for_Self-Supervised_Visual_Pre-Training_CVPR_2022_paper.html'>UniVIP</a>: A Unified Framework for Self-Supervised Visual Pre-training</small></small> "
   host:  false
   brief: true
 - date:  "2021 Dec."
@@ -20,7 +21,9 @@
   brief: true
 - date:  "2019 Aug. - Now."
   title: "Researcher @ SenseTime"
-  desc:  "Smart City Group</br>2019 - Outstanding award"
+  desc:  "Smart City Group</br>2019 - Outstanding award</br>
+  Material: [<a href='https://zhuanlan.zhihu.com/p/360405558'>distribuuuu</a>]
+  [<a href='https://zhuanlan.zhihu.com/p/295459178'>vscode</a>]"
   host:  false
   brief: true
 - date:  "2019 Mar. - 2019 Aug."
@@ -30,7 +33,18 @@
   brief: true
 - date:  "2018 Feb. - 2019 Mar."
   title: "CZF: CGI Zero Framework"
-  desc:  "<b>Lightweight, Scalable</b> AGZ/AZ Training Framework</br>Easy to develop new games based on AGZ/AZ</br>Allowed to be extended to a more general framework</br><b>WahahaNoGo</b> is the strongest NoGo Program, which</br>got the TAAI 2018 NoGo <b>Champion</b></br>got the ICGA 2019 NoGo <b>Champion</b><br>Proposed a new training method called <b>MPV-MCTS</b><br>Paper (<b>Multiple Policy Value Monte Carlo Tree Search</b>) was accepted to <b>IJCAI 2019</b><br>Material: [<a href='https://github.com/BIGBALLON/bigballon.github.io/files/3309768/thesis_a-software-framework-for-alphazero-like-applications.pdf'>slide</a>] [<a href='https://www.ijcai.org/Proceedings/2019/0653.pdf'>paper</a>]"
+  desc:  "<b>Lightweight, Scalable</b> AGZ/AZ Training Framework</br>
+  Easy to develop new games based on AGZ/AZ</br>Allowed to be extended to a more general framework</br>
+  <b>WahahaNoGo</b> is the strongest NoGo Program, which</br>
+  got the TAAI 2018 NoGo <b>Champion</b></br>
+  got the ICGA 2019 NoGo <b>Champion</b><br>
+  Proposed a new training method called <b>MPV-MCTS</b><br>
+  Paper (<b>Multiple Policy Value Monte Carlo Tree Search</b>) was accepted to <b>IJCAI 2019</b><br>
+  Material: [<a href='https://github.com/BIGBALLON/bigballon.github.io/files/3309768/thesis_a-software-framework-for-alphazero-like-applications.pdf'>slide</a>]
+  [<a href='https://www.ijcai.org/Proceedings/2019/0653.pdf'>paper</a>]
+  [<a href='https://github.com/BIGBALLON/Toward-AGZ'>AGZ paper</a>]
+  [<a href='https://github.com/BIGBALLON/Paper_List/blob/master/README.md'>RL paper</a>]
+  [<a href='https://github.com/BIGBALLON/Caffe2-Tutorial'>caffe2</a>]"
   host:
     name: "<a href='http://aigames.nctu.edu.tw/~icwu/'>Prof. I-Chen Wu</a>"
     role: "Supervisor"
@@ -55,15 +69,19 @@
   brief: true
   host:
     name: "<a href='https://www.eecs.harvard.edu/htk/'>Prof. H.T. Kung</a>, Academia Sinica"
-    role: "Instructor"
+    role: "Supervisor"
 - date:  "2016 Oct. - 2017 July."
   title: "Development of Chinese Chess AI"
-  desc:  "CGI Lab Chinese Chess Group</br>Won the <b>2nd</b> place in TAAI 2016 Tournaments</br>Won the <b>1st</b> place in ICGA 2017 Tournaments"
+  desc:  "CGI Lab Chinese Chess Group</br>
+  Won the <b>2nd</b> place in TAAI 2016 Tournaments</br>
+  Won the <b>1st</b> place in ICGA 2017 Tournaments"
   brief: true
-  host:  false
+  host:
+    name: "<a href='http://aigames.nctu.edu.tw/~icwu/'>Prof. I-Chen Wu</a>"
+    role: "Supervisor"
 - date:  "2016 Sep. - 2019 Jun."
   title: "Graduate student @ <a href='http://www.nctu.edu.tw/'>NCTU</a>"
-  desc:  "Computer Games and Intelligence<a href='http://www.aigames.nctu.edu.tw/'>(CGI)</a> Lab</br>Game AI, Deep Learning, Reinforcement Learning</br>My Paper <a href='https://github.com/BIGBALLON/Paper_List/blob/master/README.md'>Reading List</a>"
+  desc:  "Computer Games and Intelligence<a href='http://www.aigames.nctu.edu.tw/'>(CGI)</a> Lab</br>Game AI, Deep Learning, Reinforcement Learning</br>"
   host:
     name: "<a href='http://aigames.nctu.edu.tw/~icwu/'>Prof. I-Chen Wu</a>"
     role: "Supervisor"
