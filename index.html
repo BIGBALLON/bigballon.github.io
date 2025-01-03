@@ -1,108 +1,199 @@
----
-layout: home
----
+<html>
 
-<div id="bio" class="bio">
-  <h1 class="md-heading text-center">
-    <i class="fa fa-id-card" aria-hidden="true"></i>
-    Biography 
-  </h1>
-  <div class="bio-body">
-    <p> {{ site.data.bio.normal.content }} </p>
-  </div>
-</div>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>WILL LEE</title>
+    <link href="./css/style.css" rel="stylesheet" media="all" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 
-<div id="timeline" class="timeline-brief">
-  <h1 class="md-heading text-center">
-    <i class="fa fa-tasks" aria-hidden="true"></i>
-    Timeline
-  </h1>
+    <script src="https://kit.fontawesome.com/57fb8d417e.js" crossorigin="anonymous"></script>
 
-  <div class="timeline-body">
-    {% for experience in site.data.experiences %}
-    {% if experience.brief == true %}
-    <div class="timeline-item">
-      <div class="timeline-date">
-        {{ experience.date }}
-      </div>
-      <div class="timeline-title">
-        {{ experience.title }}
-      </div>
-      <div class="timeline-desc">
-        {{ experience.desc }}
-      </div>
-      {% unless experience.host == false %}
-      <div class="timeline-host">
-        {{ experience.host.role }}: {{ experience.host.name }}
-      </div>
-      {% endunless %}
+    <script type="text/javascript">
+        function lastUpdate() {
+          var x = document.lastModified.substr(0, 10);
+          document.getElementById("demo").innerHTML = x;
+        }
+    </script>
+    <script type="text/javascript" src="./js/hidebib.js"></script>
+    <script type="text/javascript" src="./js/loadtxt.js"></script>
+</head>
+
+<body onload="lastUpdate()">
+    <div class="content">
+        <div id="container">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <img id="myPicture" src="./misc/me.jpg" style="float: left; margin-top: 60px; margin-left: 60px; margin-bottom: 10px; border-radius: 50%;" width="200px" />
+                        </td>
+                        <td>
+                            <div id="DocInfo">
+                                <div id="intro">
+                                    <h1>Wei Li 李韡</h1>
+                                    <a style="color: black">Not Researcher, But Engineer</a><br />
+                                    <br />
+                                    <a href="mailto: fm.bigballon@gmail.com">
+                                        <span class="fa fa-envelope" style="color: navy; font-size: 20px">
+                                            <span>fm.bigballon</span>
+                                            <span class="fa fa-at" style="color: navy; font-size: 20px"><span>gmail.com</span></span></span></a><br />
+                                </div>
+
+                                <ul class="icon-list">
+                                    <a style="color: black" href="https://github.com/BIGBALLON">
+                                        <span class="fa-brands fa-github fa-xl"></span>
+                                    </a>
+                                    <a style="color: black" href="https://scholar.google.com/citations?user=CPd0kEMAAAAJ&hl=en">
+                                        <span class="ai ai-google-scholar fa-xl"></span>
+                                    </a>
+                                    <span style="color: gray; font-weight: normal">|</span>
+                                    <a style="color: black" href="https://www.facebook.com/fm.bigballon">
+                                        <span class="fa fa-facebook fa-xl"></span>
+                                    </a>
+                                    <a style="color: black" href="https://space.bilibili.com/88955459">
+                                        <span class="fa-brands fa-bilibili fa-xl"></span>
+                                    </a>
+                                    <a style="color: black" href="https://www.zhihu.com/people/BIGBALLON">
+                                        <span class="fa-brands fa-zhihu fa-xl"></span>
+                                    </a>
+                                    <!-- <a style="color: black" href="https://steamcommunity.com/id/bigballon">
+                                        <span class="fa-brands fa-steam fa-xl"></span>
+                                    </a> -->
+                                    <a style="color: black" href="misc/wchat.jpg">
+                                        <span class="fa-brands fa-weixin fa-xl"></span>
+                                    </a>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table >
+                <h1>
+                    <img src="./misc/wei.svg" alt="韡" style="position: relative; float: left; top: 0; left: 0; width: 30px;"> Biography
+                </h1>
+                <p style="color: black;">
+                    I have been at <a href="https://www.sensetime.com/" target="_blank">SenseTime</a> since August 2019, 
+                    where I currently serve as a senior algorithm researcher and lead a team focused on the advancement and application of <strong>universal multimodal embedding and retrieval</strong> to real-world applications. 
+                    Previously, I specialized in <strong>representation learning</strong>, implementing it in practical applications across various industries.
+                    <br />
+                    <br />
+                    Before that, I earned my Master's degree in Computer Science from the 
+                    <strong><a href="https://cgilab-tw.github.io/" target="_blank">Computer Games and Intelligence (CGI) Lab</a></strong>
+                    at <a href="https://www.nycu.edu.tw/nycu/en/index" target="_blank">National Chiao Tung University</a> in June 2019, 
+                    where my research focused on <strong>combining deep reinforcement learning with <a href="https://icwu307.github.io/research.html">Computer Game AI</a></strong> 
+                    (e.g., <a href="https://github.com/BIGBALLON/NCTU_TCG">2048 Game AI</a>, Chinese Chess AI, <a href="https://github.com/user-attachments/files/18246371/thesis_a-software-framework-for-alphazero-like-applications.pdf">AlphaGo/AlphaZero</a>), 
+                    under the supervision of Professor <strong><a href="https://icwu307.github.io/" target="_blank">I-Chen Wu</a></strong>. 
+                    <br />
+                    <br />
+                    I am originally from <strong><a href='https://en.wikipedia.org/wiki/Fujian'>Fujian</a></strong>, China, a land of rolling hills and mountains, known for its pristine natural beauty and fresh, clean air.<br />
+                    My name, <strong><a href="https://www.zdic.net/hans/%E9%9F%A1" target="_blank">韡 (wěi)</a></strong>, symbolizes brightness and beauty, reflecting my approach to both life and work.
+                    I aim to leverage technology to enhance human happiness and well-being. I'm also active on <strong><a href="https://github.com/BIGBALLON" target="_blank">GitHub</a></strong> and <strong><a href="https://www.zhihu.com/people/BIGBALLON" target="_blank">Zhihu</a></strong>, feel free to connect with me!
+                </p>
+            </table>
+
+            <h1>News</h1>
+            <!-- <div style="height: 300px; overflow: auto"> -->
+            <div>
+                [2024/05/31] My team has 1 paper (<a href="https://ieeexplore.ieee.org/abstract/document/10549831">EMAE</a>) accepted to TPAMI'24. <br />
+
+                [2023/12/31] My team has 4 papers (<a href="https://github.com/grantword8/BLV">BLV</a>,
+                <a href="https://miad-2022.github.io/">MIAD</a>,
+                <a href="https://tanasguan.github.io/SpecularDefect9/">SpecularDefect9</a>,
+                <a href="https://github.com/qiy20/SAIM">SAIM</a>) published in CVPR/ICCV/<a href="https://www.sciencedirect.com/science/article/abs/pii/S0143816623000179">OLEN</a>/AAAI in 2023. <br />
+
+                [2022/12/31] My team has 4 papers (<a href="https://github.com/Haochen-Wang409/U2PL">U2PL</a>,
+                <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Li_UniVIP_A_Unified_Framework_for_Self-Supervised_Visual_Pre-Training_CVPR_2022_paper.html">UniVIP</a>,
+                <a href="https://github.com/CASIA-IVA-Lab/Obj2Seq">Obj2Seq</a>,
+                <a href="https://github.com/usr922/FST">FST</a>) published in CVPR/NeurIPS in 2022. <br />
+
+                [2021/09/28] My team has 1 paper (<a href="https://openreview.net/forum?id=y_OmkmCH9w">MST</a>) accepted to NeurIPS'21. <br />
+
+                [2020/05/10] 😸 A Chi's (<a href="https://bigballon.github.io/Meow/img/iceice.jpeg">Ice Cream</a>) broke into my life. <br />
+
+                [2019/12/04] 👻 I received the SenseTime 2019 Outstanding Award (杰出个人奖). <br />
+
+                [2019/08/08] I formally joined <a style="color: brown" href="https://www.sensetime.com/">SenseTime</a> as a Researcher. <br />
+
+                [2019/06/30] 🌈🌈 <strong>I successfully defended my thesis and graduated</strong>. I am profoundly thankful to my advisor and classmates for their invaluable guidance and support; my time here was both intellectually enriching and <a href="https://github.com/user-attachments/assets/343df872-a981-4328-94fb-0571bb61e60d">memorable</a>.
+                Our paper, <strong><a href="https://www.ijcai.org/proceedings/2019/0653.pdf">MPV-MCTS</a></strong>, was accepted to IJCAI'19.
+                This research introduced a scalable AlphaGo Zero/AlphaZero (AGZ/AZ) framework and a novel training method leveraging multiple neural networks, which contributed to WahahaNoGo's triumphs at the TAAI 2018 and ICGA 2019 NoGo championships. <br />
+
+                [2019/03/28] I started an internship at <a style="color: brown" href="https://www.sensetime.com/">SenseTime</a>, where I primarily focused on large-scale training and face anti-spoofing. <br />
+
+                [2018/11/05] I worked on Project-Theta, focusing on defect inspection and automated optical inspection, and contributed to open-source projects. One paper <a href="https://github.com/BIGBALLON/HTD">HTD</a> was accepted to WACV'19. <br />
+                
+                [2017/11/10] 👻 I received the NCTU Academic Excellence Award (<strong>書卷獎</strong>, ranked 5/267, Top 1.87%). <br />
+
+                [2017/09/01] I served as a TA (teaching assistant) for MediaTek's Deep Learning <a href="https://github.com/2017-fall-DL-training-program">Training Program</a>. <br />
+
+                [2016/09/01] I joined the <a style="color: brown" href="https://cgilab-tw.github.io/">Computer Games and Intelligence (CGI) Lab</a> at <a style="color: brown" href="https://www.nycu.edu.tw/nycu/en/index">National Chiao Tung University</a> to pursue my master's degree, under the supervision of Professor <a href="https://icwu307.github.io/">I-Chen Wu</a> (the inventor of Connect6). <br />
+            </div>
+            <br />
+            <h1>Projects</h1>
+            <details>
+                <summary><strong>Industrial Applications</strong><strong style="color: brown">  @SenseTime</strong></summary>
+                <ul>
+                    <li>智慧城市多模态预警/多模态检索 [<a href="https://www.sensetime.com/cn/news-detail/51168310?categoryId=72">News</a>]</li>
+                    <li>智能矿山AI感知系统 [<a href="https://www.sensetime.com/cn/news-detail/51165133?categoryId=72">News</a>]</li>
+                    <li><a href="https://www.sensetime.com/cn/csr-detail/51164442?categoryId=41133455">星空</a>高铁4C智能分析系统 [<a href="https://www.chinanews.com.cn/cj/2021/12-21/9634481.shtml">News</a>]</li>
+                    <li>人脸活体检测/大规模分类训练 [<a href="https://www.sensetime.com/cn/product-detail?categoryId=33011">Product</a>]</li>
+                </ul>
+            </details>
+                <details>
+                    <summary><strong>Efficient and Flexible Framework for <a href="https://en.wikipedia.org/wiki/AlphaZero">AlphaZero</a>-Like Applications</strong><strong style="color: brown">  @CGI Lab, NCTU</strong></summary>
+                    <ul>
+                        <li>
+                            Developed a lightweight, scalable AGZ/AZ framework(called CFZ) on <a href="https://github.com/BIGBALLON/Caffe2-Tutorial">Caffe2</a> with C++ inference and Python training, extendable to any board game and adaptable to algorithms beyond AGZ/AZ.
+                            <a href="https://github.com/user-attachments/files/18058341/developers_guide_to_czf.pdf" target="_blank"><i class="fas fa-chalkboard-user" aria-hidden="true">&nbsp;</i>CZF Guide (2MB)</a>
+                        </li>
+                        <li>
+                            Co-proposed a training algorithm, <a href="https://www.ijcai.org/proceedings/2019/0653.pdf">MPV-MCTS</a>, based on CFZ by combining multiple NN networks.
+                            <a href="https://github.com/user-attachments/files/18246371/thesis_a-software-framework-for-alphazero-like-applications.pdf" target="_blank"><i class="fas fa-chalkboard-user" aria-hidden="true">&nbsp;</i>Slides (6MB)</a>
+                        </li>
+                        <li>Co-developed <a href="https://github.com/user-attachments/files/18259249/czf-nogo.zip">WahahaNoGo</a>, the successor to <a href="https://github.com/lclan1024/HaHaNoGo">HaHaNoGo</a>, with a 99% win rate against. </li>
+                        <li>WahahaNoGo won the TAAI 2018 and ICGA 2019 <a href="https://webdocs.cs.ualberta.ca/~mmueller/nogo/rules.html">NoGo</a> Championships.</li>
+                    </ul>
+                </details>
+
+                <details>
+                    <summary><strong>Project-Theta</strong> <strong style="color: brown"> @NCTU, Academia Sinica</strong></summary>
+                    <ul>
+                        <li>distribuuuu: <a href="https://github.com/BIGBALLON/distribuuuu"><img src="https://img.shields.io/github/stars/BIGBALLON/distribuuuu?style=social"></a></li>
+                        <li>CIFAR-ZOO: <a href="https://github.com/BIGBALLON/CIFAR-ZOO"><img src="https://img.shields.io/github/stars/BIGBALLON/CIFAR-ZOO?style=social"></a></li>
+                        <li>cifar-10-cnn: <a href="https://github.com/BIGBALLON/cifar-10-cnn"><img src="https://img.shields.io/github/stars/BIGBALLON/cifar-10-cnn?style=social"></a></li>
+                    </ul>
+                </details>
+        </div>
+        
+        <br />
+        <br />
+        <ul class="life-quotes">
+            <li>Life is more than living.</li> 
+            <li>Work is more than tasks.</li>
+            <li>In all things, <span style="color:#FF0000">b</span><span style="color:#FF7600">r</span><span style="color:#FFEB00">i</span><span style="color:#9DFF00">n</span><span style="color:#27FF00">g</span> <span style="color:#00FF4E">p</span><span style="color:#00FFC4">a</span><span style="color:#00C4FF">s</span><span style="color:#004EFF">s</span><span style="color:#2700FF">i</span><span style="color:#9D00FF">o</span><span style="color:#FF00EB">n</span><span style="color:#FF0076">.</span></li>
+        </ul>
+        <br />
+        <br />
+
+        <style>
+            .life-quotes {
+              list-style: none;
+              text-align: center;
+              margin-top: 20px;
+              padding: 0; 
+            }
+            .life-quotes li {
+              margin-bottom: 5px;
+              font-size: 1.0em;
+              font-style: italic;
+            }
+        </style>
+        <!-- <div style="text-align: center;">
+            <strong>This page is last updated at <span style="color: rgb(57, 57, 58)" id="demo"></span></strong>
+        </div> -->
     </div>
-    {% endif %}
-    {% endfor %}
-  </div>
+</body>
 
-  <div class="button">
-    <h1 class="sm-heading text-center">
-      <a href="{{ '/timeline.html' | prepend: site.baseurl }}">
-        <i class="fa fa-info-circle"></i> More
-      </a>
-    </h1>
-  </div>
-</div>
-
-<!--
-<div id="publications" class="publications">
-  <h1 class="md-heading text-center">
-    <i class="fa fa-file" aria-hidden="true"></i>
-    Publications
-  </h1>
-
-  <div class="pub-list">
-  {% for publication in site.data.publications %}
-  {% if publication.selected %}
-    <div class="pub">
-      <div class="pub-left">
-        <img class="intro-img {{publication.imgprop}}" src="{{ publication.imgurl | prepend: site.baseurl }}"/>
-      </div>
-      <div class="pub-right">
-        <div class="title">
-          {{ publication.title }}
-        </div>
-        <div class="authors">
-          {% for author in publication.authors %}
-            <a class="author" href="{{ author.url }}">
-              {{ author.name | prepend: ' '}}
-              {% if author.equal_contribution %}* {% endif %}
-            </a>
-            {% if forloop.last == false %},{% endif %}
-          {% endfor %}
-        </div>
-        <div class="desc">
-          <p>{{ publication.desc }}</p>
-        </div>
-        <div class="publish">
-          <span class="publisher">{{ publication.publisher }}</span>
-          <span class="status">{{ publication.status }}</span>
-          <span class="place">{{ publication.place }}</span>
-        </div>
-        <div class="tags">
-          {% for tag in publication.tags %}
-          [<a class="tag" href="{{tag.url}}"> <strong>{{ tag.name }}</strong> </a>]
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-  {% endif %}
-  {% endfor %}
-  </div>
- 
-  <div class="button">
-    <h1 class="sm-heading text-center">
-      <a href="{{ '/publications/#publications' | prepend: site.baseurl }}">
-        <i class="fa fa-info-circle"></i> All Publications
-      </a>
-    </h1>
-  </div> 
-</div> -->
-
-</div>
+</html>
